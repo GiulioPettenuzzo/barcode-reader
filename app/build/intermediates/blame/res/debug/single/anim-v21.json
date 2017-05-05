@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/28c6f8b306f9f47245766a6fa103eac05034a977/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/28c6f8b306f9f47245766a6fa103eac05034a977/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/28c6f8b306f9f47245766a6fa103eac05034a977/output/res/anim-v21/design_appbar_state_list_animator.xml"
+    }
+]

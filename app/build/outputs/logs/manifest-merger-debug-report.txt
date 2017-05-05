@@ -1,0 +1,123 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:3:5-66
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:8:22-62
+application
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/4d1750dd4c3e6aba4ab094452f03909f28cdc0a4/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/47e6704fe200b0295892bddb9a2792418bd7eea2/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/bfff890f1179d285b8e70e1d6593b460d5b58a37/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:design:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/28c6f8b306f9f47245766a6fa103eac05034a977/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/25a4ba70fbaf1c4b834b1aa2f4595afc1113648f/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/65b14c35c04c2f830e4461e27b76b44d0b82c3ba/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/08cc5619bda99f23d0d0177d672d1ef29f9c1d50/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/e6fc19468a23eba7eb108257e97360c84298f988/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/d98906bbc1c15217c8bd90c3821a5074849cf104/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/c09bc33ffd1fdb1a599cfb13322d0899d1a386aa/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/c729a6d36e917fd271b9a589b08bea8e007ce35e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/86f69a860e64543a41bdbf7ddcfa7624ef9d651a/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:15:9-40
+	android:supportsRtl
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:16:9-37
+	android:hardwareAccelerated
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:13:9-43
+	android:fullBackupContent
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:12:9-42
+	android:allowBackup
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:14:9-38
+	android:theme
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:17:9-47
+meta-data#com.google.android.gms.version
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:18:9-20:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/bfff890f1179d285b8e70e1d6593b460d5b58a37/output/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:20:13-66
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:19:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:21:9-23:39
+	android:value
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:22:13-70
+activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:26:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:31:27-74
+activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:35:9-36:43
+	android:label
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:36:13-41
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:35:19-57
+uses-sdk
+INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/4d1750dd4c3e6aba4ab094452f03909f28cdc0a4/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/47e6704fe200b0295892bddb9a2792418bd7eea2/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/bfff890f1179d285b8e70e1d6593b460d5b58a37/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/28c6f8b306f9f47245766a6fa103eac05034a977/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/25a4ba70fbaf1c4b834b1aa2f4595afc1113648f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/65b14c35c04c2f830e4461e27b76b44d0b82c3ba/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/08cc5619bda99f23d0d0177d672d1ef29f9c1d50/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/e6fc19468a23eba7eb108257e97360c84298f988/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/d98906bbc1c15217c8bd90c3821a5074849cf104/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/c09bc33ffd1fdb1a599cfb13322d0899d1a386aa/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:recyclerview-v7:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/09fca48af2c7065094d61287a3a6afe9716ffa76/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/c729a6d36e917fd271b9a589b08bea8e007ce35e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/86f69a860e64543a41bdbf7ddcfa7624ef9d651a/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] /Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:20:19-85
