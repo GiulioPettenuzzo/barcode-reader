@@ -118,7 +118,7 @@ public class VolleyActivity extends AppCompatActivity {
             public void onErrorResponse(VolleyError error) {
                 mTextView.setText("That didn't work!");
             }
-        });
+        });//
 // Add the request to the RequestQueue.
         queue.add(stringRequest);
     }
