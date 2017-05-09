@@ -1,0 +1,7 @@
+#Tue May 09 11:57:26 CEST 2017
+base.0=/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7712efecb1bfc02aadc897c7447e67b6c68fa8b2
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9bfed345bb4ee42f695df9611db291c5b6a815e5/classes.dex
+base.1=/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9bfed345bb4ee42f695df9611db291c5b6a815e5
+file.0=/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7712efecb1bfc02aadc897c7447e67b6c68fa8b2/classes.dex
