@@ -87,7 +87,7 @@ public class VolleyActivity extends AppCompatActivity {
                     numPhotoSelected--;
                 }
                 makeVolleyRequestForImageLoader(url,numPhotoSelected);
-            }//
+            }
         });
 
 
