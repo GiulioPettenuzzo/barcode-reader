@@ -3,6 +3,8 @@ package com.google.android.gms.samples.vision.barcodereader;
 import java.util.StringTokenizer;
 
 /**
+ * this class provide a parcing of an html responce in order to estract the whole image url
+ * in the page
  * Created by giuliopettenuzzo on 09/05/17.
  */
 
@@ -11,10 +13,8 @@ public class ImageUrlUnpacker implements Unpacker {
     private static String responseFromNetwork;
     private static int num = 1; //current number of image
     private static int max;     //max number of image possibles
-    
-    public ImageUrlUnpacker(String responseFromNetwork){
-        this.responseFromNetwork = responseFromNetwork;
-    }
+
+
     @Override
     public String getResponce() {
         return responseFromNetwork;
@@ -33,10 +33,10 @@ public class ImageUrlUnpacker implements Unpacker {
         this.num = num;
     }
 
-    public int getMaxImage(){
-        max = countImageOnUrl(responseFromNetwork);
+    public int getMax(){
         return max;
     }
+
     /**
      * this class is able to make a parcing of the response to find out the first url witch contains the
      * first image in yahoo image
@@ -48,7 +48,8 @@ public class ImageUrlUnpacker implements Unpacker {
      */
     @Override
     public String getMyString() {
-        StringTokenizer token = new StringTokenizer(responseFromNetwork);
+        String response = responseFromNetwork;
+        StringTokenizer token = new StringTokenizer(response);
         String first_word = "";//the previus of the correct string
         String second_word = "";    //the correct string
         String imgURL = "https://";
@@ -131,11 +132,12 @@ public class ImageUrlUnpacker implements Unpacker {
 
     /**
      * class uses to know how many images are there in the responce of yahoo image
-     * @param responce
+     * @param
      * @return
      */
-    private int countImageOnUrl(String responce){
-        StringTokenizer token = new StringTokenizer(responce);
+    public int countImageOnUrl(){
+        String response = responseFromNetwork;
+        StringTokenizer token = new StringTokenizer(response);
         String first_word = "";//the previus of the correct string
         String second_word = "";    //the correct string
         int count = 0;
@@ -143,11 +145,12 @@ public class ImageUrlUnpacker implements Unpacker {
             first_word = token.nextToken();
             if (first_word.endsWith("img")) {  //...<\>img
                 second_word = token.nextToken();
-                if (second_word.startsWith("src")) {   //src=
+                if (second_word.startsWith("src='https:")) {   //src=
                     count++;
                 }
             }
         }
+        max = count;
         return count;
     }
 }
