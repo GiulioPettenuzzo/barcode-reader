@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_2c244bf6a4c240be581e6ecac8173ecf79677654.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_2623f7d561a9c2128d650777fc9686ea36ae9be2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/39f380d0cc29fdd90d8502c62cdb56a6f8ce3f0f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0c724512e248a6000b67e8bf16ec79d5962f27e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_7d6cc6ddfb907dac5062d2ae220caf81c25da9e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/c729a6d36e917fd271b9a589b08bea8e007ce35e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_75e237a8751f252b0b26b84c957c31403e4c1be2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/08cc5619bda99f23d0d0177d672d1ef29f9c1d50/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_1c842565e21a7603d01bbd7115a47f7d163dc8bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_3b1ed4d7b59e01f594f238390b122f3e1b8b59d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_44f553bde63e7c281990b4813cd5ac4a7cf5dbd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/d98906bbc1c15217c8bd90c3821a5074849cf104/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_c3ae0f517845d3f518d811659771fa6976a79a63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/4d1750dd4c3e6aba4ab094452f03909f28cdc0a4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_32e430f9005edd789cb794eebbf7c7a5ad92976d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/25a4ba70fbaf1c4b834b1aa2f4595afc1113648f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_da1e5abdf53db74f6243f6edaad6d3ef0b5c3c3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_34d90d7954f5d4c8fae4543a1fb25ba58f524b80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/86f69a860e64543a41bdbf7ddcfa7624ef9d651a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_2e5a3d65c638c20e6427487095f2ab4f253f201a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_2f8924d3cad537a91c5161a0aab38e7a66c2e289.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_962815b592615332a49eb3c68b6e2ef46404e917.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_4b960bd3dafaa06d390f95236e5ca7c110b3a1a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.4.0_14be375967531140afd6da4125c27c279c2bfe44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/86f69a860e64543a41bdbf7ddcfa7624ef9d651a/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_9a2e090076308ba990812cb1949a2089d8d8cd8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/47e6704fe200b0295892bddb9a2792418bd7eea2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_68027aa917bd58facb1ecfaf8d84381e43b2c292.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/volley/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="863e41d99c0a400ba9cd8331b33d1b31e76520ef">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_95c47d2c962bc19802db655ee74863fd4b8acb29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/bfff890f1179d285b8e70e1d6593b460d5b58a37/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_4106583a887c17e560f7f743cc8616eaf1c258ec.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9bfed345bb4ee42f695df9611db291c5b6a815e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_5152646d5ed507fbae2eb4bfd3d2fe76a24d18cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_88539ebef123e6506cdb53bf5ef2af61c26fc7a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/28c6f8b306f9f47245766a6fa103eac05034a977/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_f8522327f457c93cd9b441b92e1969c1cdb2b063.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/e6fc19468a23eba7eb108257e97360c84298f988/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_24dee8cccd92c6a54ff62ecb4a66893cdb0a8dc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/e6fc19468a23eba7eb108257e97360c84298f988/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_a0e9ea8068f18f7227f8da8ef1e22bc347052b9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_a3e82aeca197797288059093a712d076ed6b107c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_6fa97f562b1695c3b6d1faa170cedf5eabcd0eb2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f4535078e760aac7dc4d638b4276e9dda536161">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7712efecb1bfc02aadc897c7447e67b6c68fa8b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_2b1473d9c0c400be07050f904d984cac5b09ade0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_b6a277eea7e1c00a8c5160b7f02f559a8d8240e0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/giuliopettenuzzo/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_277a3f391b80932856a135c877081dae301dece0/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_480f6dd9761e5298d1ec1fc4c4b2e772254cfe2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_7dc2c2da8f5f19779c88c4bba252bc900e6d5860.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_5a4fa2a16b8448e08152302a41558d130f7ff1cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/c729a6d36e917fd271b9a589b08bea8e007ce35e/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_446cdc6bf051bd5ef64e6cf0d31dbc6bcd09272b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/09fca48af2c7065094d61287a3a6afe9716ffa76/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_7eda151dbf70b5b9fd6dd72f942dc48bf831e74e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.volley/volley/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="863e41d99c0a400ba9cd8331b33d1b31e76520ef">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-unspecified_ca7c11eb5aad25a42bb970bbc265a6967316019c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/d98906bbc1c15217c8bd90c3821a5074849cf104/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_b1a2f6aac2475c0f23653b2b7085ed0ff6d23457.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/c09bc33ffd1fdb1a599cfb13322d0899d1a386aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_85cc1a3898168acedd131f0f0b034374767e1055.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_0d6fcb8ed8ffcbe99235f69ec9726093a83abd1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_7ca2dcf811d2bae2b200246cb49c5967eda0a3dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_232cad0ba512e6686b5eb02ac54d634acf1cb08e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/c09bc33ffd1fdb1a599cfb13322d0899d1a386aa/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_dc74baffcf2eec0df041908b7d9f2b25050e1736.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_af2bfa4532f1406266d30e4a86b8be24d557fc73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_2623f7d561a9c2128d650777fc9686ea36ae9be2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/65b14c35c04c2f830e4461e27b76b44d0b82c3ba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/pre-dexed/debug/classes_9b7c78475d7d82da3a4ebf8ca5bfce903d4b4d5b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_check_red_24dp.png",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_check_red_24dp.png"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_check_black_24dp.png",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_check_black_24dp.png"
+    }
+]
