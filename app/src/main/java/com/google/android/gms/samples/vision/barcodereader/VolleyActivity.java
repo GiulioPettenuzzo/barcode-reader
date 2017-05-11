@@ -79,7 +79,7 @@ public class VolleyActivity extends AppCompatActivity {
                 mTextView.setText("That didn't work!");
                 imageUrlUnpacker.setResponce("That didn't work!");
             }
-        });
+        });//
         // Add the request to the RequestQueue.
         queue.add(stringRequest);
 
