@@ -9,10 +9,12 @@ import java.util.ArrayList;
 public interface Cattegory {
     public void setName(String name);
     public String getName();
-    public void setDescription();
+    public void setDescription(String description);
     public String getDescription();
     public void setPosition(Position position);
     public Position getPosition();
     public int getNumberOfElements();
-    public ArrayList<String> getAllProductsName();
+    public ArrayList<Product> getAllProduct();
+    public void addNewProduct(Product product);
+    public void removeProduct(Product product);
 }

@@ -26,6 +26,9 @@ public interface Product {
     public String getImageURL();
     public void setImageURL(String URL);
     //new attributes
-    public ArrayList<String> getNewAttributes();
-    public void setNewAttribute(String attribute);
+    public ArrayList<Attribute> getNewAttributes();
+    public void setNewAttribute(Attribute attribute);
+    //cattegory
+    public Cattegory getCattegory();
+    public void setCattegory(Cattegory cattegory);
 }
