@@ -108,12 +108,12 @@
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout/design_navigation_item_separator.xml"
-    },
-    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",

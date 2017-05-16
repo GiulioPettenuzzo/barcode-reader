@@ -30,7 +30,7 @@
             android:value="barcode" />
 
         <activity
-            android:name="com.google.android.gms.samples.vision.barcodereader.MainActivity"
+            android:name="com.google.android.gms.samples.vision.barcodereader.VolleyActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,7 +42,7 @@
             android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity"
             android:label="Read Barcode" />
         <activity
-            android:name="com.google.android.gms.samples.vision.barcodereader.VolleyActivity"
+            android:name="com.google.android.gms.samples.vision.barcodereader.MainActivity"
             android:label="Read Barcode" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

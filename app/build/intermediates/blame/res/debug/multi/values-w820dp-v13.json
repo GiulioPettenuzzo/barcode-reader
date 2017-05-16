@@ -7,8 +7,46 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/values-w820dp/color.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 41,
+                        "endOffset": 132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 39,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/values-w820dp/color.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 39,
+                        "endOffset": 90
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 137,
                     "endColumn": 57,
-                    "endOffset": 108
+                    "endOffset": 190
                 },
                 "from": {
                     "file": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/values-w820dp/dimens.xml",
