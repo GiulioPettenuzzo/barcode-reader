@@ -59,12 +59,10 @@ public class RealCattegory implements Cattegory {
         return allProduct;
     }
 
-    @Override
     public void addNewProduct(Product product) {
         allProduct.add(product);
     }
 
-    @Override
     public void removeProduct(Product product) {
         allProduct.remove(product);
     }

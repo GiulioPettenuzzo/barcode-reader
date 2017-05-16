@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -167,6 +168,11 @@ public class VolleyActivity extends AppCompatActivity {
             }
         });
         loadAllImage();
+        Product product = new RealProduct("ciao","ciao");
+        Intent inten = new Intent();
+        inten.putExtra("ciao", product);
+        Parcelable x = product;
+
     }
 
     /**

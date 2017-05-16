@@ -1,4 +1,4 @@
-#Thu May 11 22:34:20 CEST 2017
+#Tue May 16 12:52:13 CEST 2017
 base.0=/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
 renamed.0=classes.dex
 file.0=/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

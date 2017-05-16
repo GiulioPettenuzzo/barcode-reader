@@ -1,12 +1,14 @@
 package com.google.android.gms.samples.vision.barcodereader;
 
+import android.os.Parcelable;
+
 import java.util.ArrayList;
 
 /**
  * Created by giuliopettenuzzo on 16/05/17.
  */
-
-public interface Product {
+//TODO: ALL THE INTERFACES MUST EXTENDS PARCELABLE OBJECTS
+public interface Product{
     //name
     public String getName();
     public void setName(String name);
