@@ -59,7 +59,7 @@ public class VolleyActivity extends AppCompatActivity {
         buttonPrev = (ImageButton) findViewById(R.id.button_prev);
         buttonNext = (ImageButton) findViewById(R.id.button_next);
         photoButton = (ImageButton) findViewById(R.id.photoButton);
-        imageSelected = (ImageButton) findViewById(R.id.saveImageButton);
+        imageSelected = (ImageButton) findViewById(R.id.saveImageButton);//
 
 /**
         // THE PART OF THE CODE BELOW IS USED FOR SET THE ACTIVITY WITH THE BARCODE READER
