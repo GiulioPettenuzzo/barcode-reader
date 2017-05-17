@@ -6,7 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.google.android.gms.samples.vision.barcodereader.adapters.ShowProductByCattegoryAdapter;
-import com.google.android.gms.samples.vision.barcodereader.entities.Cattegory;
+import com.google.android.gms.samples.vision.barcodereader.entities.Category;
 import com.google.android.gms.samples.vision.barcodereader.entities.Position;
 import com.google.android.gms.samples.vision.barcodereader.entities.Product;
 import com.google.android.gms.samples.vision.barcodereader.entities.RealCattegory;
@@ -39,6 +39,7 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
 
     }
 
+
     private class giveMeSomeProducts{
 
         private ArrayList<Product> allProduct;
@@ -55,8 +56,8 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
             return allProduct;
         }
 
-        private Cattegory giveMeACattegory(){
-            Cattegory cattegory = new RealCattegory("cattegoria1",position);
+        private Category giveMeACattegory(){
+            Category cattegory = new RealCattegory("cattegoria1",position);
             String name;
             for(int i = 0;i<20;i++){
                 name = "Prodotto " + i;

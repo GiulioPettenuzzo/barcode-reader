@@ -6,6 +6,10 @@ import java.util.ArrayList;
  * Created by giuliopettenuzzo on 16/05/17.
  */
 //TODO: ALL THE INTERFACES MUST EXTENDS PARCELABLE OBJECTS
+
+/**
+ * this class represent a physical object, the same object the user detected scanning the barcode
+ */
 public interface Product{
     //name
     public String getName();
@@ -29,6 +33,6 @@ public interface Product{
     public ArrayList<Attribute> getNewAttributes();
     public void setNewAttribute(Attribute attribute);
     //cattegory
-    public Cattegory getCattegory();
-    public void setCattegory(Cattegory cattegory);
+    public Category getCattegory();
+    public void setCattegory(Category cattegory);
 }

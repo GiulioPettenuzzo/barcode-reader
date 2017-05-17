@@ -1,16 +1,12 @@
 package com.google.android.gms.samples.vision.barcodereader.entities;
 
-import com.google.android.gms.samples.vision.barcodereader.entities.Cattegory;
-import com.google.android.gms.samples.vision.barcodereader.entities.Position;
-import com.google.android.gms.samples.vision.barcodereader.entities.Product;
-
 import java.util.ArrayList;
 
 /**
  * Created by giuliopettenuzzo on 16/05/17.
  */
 
-public class RealCattegory implements Cattegory {
+public class RealCattegory implements Category {
 
     private String name;
     private String description;

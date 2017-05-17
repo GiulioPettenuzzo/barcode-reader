@@ -1,10 +1,5 @@
 package com.google.android.gms.samples.vision.barcodereader.entities;
 
-import com.google.android.gms.samples.vision.barcodereader.entities.Attribute;
-import com.google.android.gms.samples.vision.barcodereader.entities.Cattegory;
-import com.google.android.gms.samples.vision.barcodereader.entities.Position;
-import com.google.android.gms.samples.vision.barcodereader.entities.Product;
-
 import java.util.ArrayList;
 
 /**
@@ -20,9 +15,9 @@ public class RealProduct implements Product {
     private String imageURL;
     private ArrayList<Attribute> attributesInPlus;
     private ArrayList<Position> allPosition;
-    private Cattegory cattegory;
+    private Category cattegory;
 
-    public RealProduct(String barcode,String name,Cattegory cattegory){
+    public RealProduct(String barcode,String name,Category cattegory){
         this.barcode = barcode;
         this.name = name;
         cattegory.addNewProduct(this);
@@ -104,12 +99,12 @@ public class RealProduct implements Product {
     }
 
     @Override
-    public Cattegory getCattegory() {
+    public Category getCattegory() {
         return cattegory;
     }
 
     @Override
-    public void setCattegory(Cattegory cattegory) {
+    public void setCattegory(Category cattegory) {
         this.cattegory = cattegory;
         cattegory.addNewProduct(this);
     }
