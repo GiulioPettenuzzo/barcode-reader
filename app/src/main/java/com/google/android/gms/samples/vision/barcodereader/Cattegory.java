@@ -15,4 +15,6 @@ public interface Cattegory {
     public Position getPosition();
     public int getNumberOfElements();
     public ArrayList<Product> getAllProduct();
+    public void addNewProduct(Product product);
+    public void removeProduct(Product product);
 }
