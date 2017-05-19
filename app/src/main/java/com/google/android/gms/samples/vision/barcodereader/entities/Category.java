@@ -67,4 +67,11 @@ public interface Category {
      * @param product remove the product from this list
      */
     public void removeProduct(Product product);
+
+    /**
+     * given a barcode, this method returns the number of product that have the same barcode
+     * @param barcode
+     * @return
+     */
+    public int getNumberOfEqualsProduct(String barcode);
 }

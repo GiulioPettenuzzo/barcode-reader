@@ -44,6 +44,7 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
 
         private ArrayList<Product> allProduct;
         private Position position = new RealPosition("garage");
+        private Position productPosition = new RealPosition("s1");
 
         private ArrayList<Product> giveMeTwentyProducts(){
             allProduct = new ArrayList<>();
@@ -61,7 +62,9 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
             String name;
             for(int i = 0;i<20;i++){
                 name = "Prodotto " + i;
-                Product product = new RealProduct("barcode",name);
+                Product product = new RealProduct("barcode",name,cattegory);
+                product.setPosition(productPosition);
+                product.setImageURL("http://www.donnamoderna.com/var/ezflow_site/storage/images/media/images/adv/moretti/birra-moretti/66481223-1-ita-IT/Birra-Moretti.jpg");
                 cattegory.addNewProduct(product);
             }
             return cattegory;

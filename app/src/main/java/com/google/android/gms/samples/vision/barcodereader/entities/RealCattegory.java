@@ -12,7 +12,7 @@ public class RealCattegory implements Category {
     private String description;
     private Position position;
     private ArrayList<Product> allProduct = new ArrayList<>();
-    private int numberOfElements;
+    private int numberOfEqualsProduct;
 
     public RealCattegory(String name,Position position){
         this.name = name;
@@ -65,5 +65,16 @@ public class RealCattegory implements Category {
 
     public void removeProduct(Product product) {
         allProduct.remove(product);
+    }
+
+    @Override
+    public int getNumberOfEqualsProduct(String barcode) {
+        int productCounter = 0;
+        for (Product product:allProduct) {
+            if(product.getBarcode().compareTo(barcode)==0){
+                productCounter++;
+            }
+        }
+        return productCounter;
     }
 }

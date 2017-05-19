@@ -820,7 +820,6 @@ int id ifRoom 0x7f0b0041
 int id image 0x7f0b0050
 int id imageView 0x7f0b0085
 int id info 0x7f0b00a0
-int id item_show_product_by_cattegory 0x7f0b00a2
 int id item_touch_helper_previous_elevation 0x7f0b0005
 int id left 0x7f0b0030
 int id light 0x7f0b0048
@@ -843,6 +842,9 @@ int id parentPanel 0x7f0b0057
 int id photoButton 0x7f0b0086
 int id pin 0x7f0b0035
 int id preview 0x7f0b0089
+int id product_image 0x7f0b00a3
+int id product_name 0x7f0b00a2
+int id product_number 0x7f0b00a4
 int id progress_circular 0x7f0b0006
 int id progress_horizontal 0x7f0b0007
 int id radio 0x7f0b0065

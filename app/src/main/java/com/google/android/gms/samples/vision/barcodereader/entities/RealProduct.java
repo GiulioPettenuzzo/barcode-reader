@@ -13,14 +13,16 @@ public class RealProduct implements Product {
     private String barcode;
     private String description;
     private String imageURL;
-    private ArrayList<Attribute> attributesInPlus;
-    private ArrayList<Position> allPosition;
+    private ArrayList<Attribute> attributesInPlus = new ArrayList<>();
+    private ArrayList<Position> allPosition = new ArrayList<>();
     private Category cattegory;
 
     public RealProduct(String barcode,String name,Category cattegory){
         this.barcode = barcode;
         this.name = name;
-        cattegory.addNewProduct(this);
+        this.cattegory = cattegory;
+        allPosition.add(cattegory.getPosition());
+        //cattegory.addNewProduct(this);
     }
     //for the beginning, a constructor without cattegory
     public RealProduct(String barcode,String name){
@@ -106,7 +108,9 @@ public class RealProduct implements Product {
     @Override
     public void setCattegory(Category cattegory) {
         this.cattegory = cattegory;
-        cattegory.addNewProduct(this);
+        allPosition.add(cattegory.getPosition());
+
+        //cattegory.addNewProduct(this);
     }
 
 
