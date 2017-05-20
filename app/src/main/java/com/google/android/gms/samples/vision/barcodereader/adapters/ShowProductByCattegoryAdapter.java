@@ -41,7 +41,7 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View viewOfRecycle = LayoutInflater.from(parent.getContext()).inflate(R.layout.show_product_by_cattegory_item,parent,false);
-        viewOfRecycle.setBackgroundColor(808080);
+        //viewOfRecycle.setBackgroundColor(808080);
         ViewHolder viewHolder = new ViewHolder(viewOfRecycle,(TextView)viewOfRecycle.findViewById(R.id.product_name),
                 (TextView)viewOfRecycle.findViewById(R.id.product_number),(ImageView)viewOfRecycle.findViewById(R.id.product_image));
         return viewHolder;
@@ -71,6 +71,7 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
         new DownloadImageTask((ImageView) holder.productImage)
                 .execute(url);
     }
+
 
     @Override
     public int getItemCount() {
