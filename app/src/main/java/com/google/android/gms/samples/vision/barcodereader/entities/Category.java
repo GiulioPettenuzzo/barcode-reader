@@ -18,60 +18,60 @@ public interface Category {
      * the user can set the name
      * @param name
      */
-    public void setName(String name);
+    void setName(String name);
 
     /**
      * @return the name of the cattegory
      */
-    public String getName();
+    String getName();
 
     /**
      * set the description of the cattegory
      * @param description
      */
-    public void setDescription(String description);
+    void setDescription(String description);
 
     /**
      * @return the description
      */
-    public String getDescription();
+    String getDescription();
 
     /**
      * a position is also an object that rappresent the physical position of the products , this method is use to set the position
      * @param position
      */
-    public void setPosition(Position position);
+    void setPosition(Position position);
 
     /**
      * @return the position of the object
      */
-    public Position getPosition();
+    Position getPosition();
 
     /**
      * return the number of the products in the category
      * @return
      */
-    public int getNumberOfElements();
+    int getNumberOfElements();
 
     /**
      * @return all the product in the category grouped in a list
      */
-    public ArrayList<Product> getAllProduct();
+    ArrayList<Product> getAllProduct();
 
     /**
      * @param product add a product to this list
      */
-    public void addNewProduct(Product product);
+    void addNewProduct(Product product);
 
     /**
      * @param product remove the product from this list
      */
-    public void removeProduct(Product product);
+    void removeProduct(Product product);
 
     /**
      * given a barcode, this method returns the number of product that have the same barcode
      * @param barcode
      * @return
      */
-    public int getNumberOfEqualsProduct(String barcode);
+    int getNumberOfEqualsProduct(String barcode);
 }

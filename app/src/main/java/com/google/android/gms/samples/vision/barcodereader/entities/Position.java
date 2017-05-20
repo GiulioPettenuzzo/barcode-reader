@@ -13,10 +13,10 @@ public interface Position {
      * set the name of the position
      * @param name
      */
-    public void setName(String name);
+    void setName(String name);
 
     /**
      * @return the name of the position
      */
-    public String getName();
+    String getName();
 }

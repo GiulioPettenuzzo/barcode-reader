@@ -11,22 +11,22 @@ public interface Attribute {
     /**
      * @return the name  of the new attributes
      */
-    public String getName();
+    String getName();
 
     /**
      * to set the name of new Attributes
      * @param name
      */
-    public void setName(String name);
+    void setName(String name);
 
     /**
      * @return the values of new Attributes
      */
-    public String getValue();
+    String getValue();
 
     /**
      * the value of new Attributes
      * @param value
      */
-    public void setValue(String value);
+    void setValue(String value);
 }

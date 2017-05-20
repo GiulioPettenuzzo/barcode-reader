@@ -4,7 +4,6 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
-import android.support.v7.view.menu.MenuView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,10 +11,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.samples.vision.barcodereader.R;
-import com.google.android.gms.samples.vision.barcodereader.VolleyActivity;
-import com.google.android.gms.samples.vision.barcodereader.entities.Category;
+import com.google.android.gms.samples.vision.barcodereader.adapters.helpers.ItemTouchHelperAdapter;
 import com.google.android.gms.samples.vision.barcodereader.entities.Position;
 import com.google.android.gms.samples.vision.barcodereader.entities.Product;
 
@@ -26,7 +25,7 @@ import java.util.ArrayList;
  * Created by giuliopettenuzzo on 17/05/17.
  */
 
-public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProductByCattegoryAdapter.ViewHolder> {
+public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProductByCattegoryAdapter.ViewHolder> implements ItemTouchHelperAdapter {
 
 
     private Context context;
@@ -70,6 +69,7 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
         String url = product.getImageURL();
         new DownloadImageTask((ImageView) holder.productImage)
                 .execute(url);
+
     }
 
 
@@ -77,6 +77,16 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
     public int getItemCount() {
         return listOfProduct.size();
     }
+
+
+
+    @Override
+    public void onItemSwiped(int position) {
+        Toast toast = Toast.makeText(context,"item swiped", Toast.LENGTH_SHORT);
+        toast.show();
+        notifyItemChanged(position);
+    }
+
 
     static class ViewHolder extends RecyclerView.ViewHolder {
 

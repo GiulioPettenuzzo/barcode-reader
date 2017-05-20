@@ -4,8 +4,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.helper.ItemTouchHelper;
 
 import com.google.android.gms.samples.vision.barcodereader.adapters.ShowProductByCattegoryAdapter;
+import com.google.android.gms.samples.vision.barcodereader.adapters.helpers.ItemTouchHelperCallback;
 import com.google.android.gms.samples.vision.barcodereader.entities.Category;
 import com.google.android.gms.samples.vision.barcodereader.entities.Position;
 import com.google.android.gms.samples.vision.barcodereader.entities.Product;
@@ -20,6 +22,8 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
     private RecyclerView rVShowProduct;
     private RecyclerView.LayoutManager rVLayoutManager;
     private ShowProductByCattegoryAdapter showProductByCattegoryAdapter;
+    private ItemTouchHelper itemTouchHelper;
+
 
 
     @Override
@@ -36,6 +40,9 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
         ArrayList<Product> listOfProduct = cattegory.getAllProduct();
         showProductByCattegoryAdapter = new ShowProductByCattegoryAdapter(this,listOfProduct);
         rVShowProduct.setAdapter(showProductByCattegoryAdapter);
+        ItemTouchHelperCallback myItemTouchHelper = new ItemTouchHelperCallback(showProductByCattegoryAdapter);
+        itemTouchHelper = new ItemTouchHelper(myItemTouchHelper);
+        itemTouchHelper.attachToRecyclerView(rVShowProduct);
 
     }
 
