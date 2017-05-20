@@ -168,10 +168,6 @@ public class VolleyActivity extends AppCompatActivity {
             }
         });
         loadAllImage();
-        Product product = new RealProduct("ciao","ciao");
-        Intent inten = new Intent();
-        inten.putExtra("ciao", product);
-        Parcelable x = product;
 
     }
 
