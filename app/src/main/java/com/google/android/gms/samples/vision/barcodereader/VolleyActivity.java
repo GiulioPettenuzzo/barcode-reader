@@ -168,7 +168,6 @@ public class VolleyActivity extends AppCompatActivity {
         });
         loadAllImage();
 
-
     }
 
     /**
