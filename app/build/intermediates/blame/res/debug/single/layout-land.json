@@ -6,5 +6,9 @@
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout-land/barcode_capture.xml",
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout-land/barcode_capture.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout-land/show_product_by_cattegory_item.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout-land/show_product_by_cattegory_item.xml"
     }
 ]

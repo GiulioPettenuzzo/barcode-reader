@@ -44,6 +44,10 @@
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/notification_template_media.xml"
     },
     {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/show_product_by_cattegory_item.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout/show_product_by_cattegory_item.xml"
+    },
+    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/abc_screen_content_include.xml"
     },
@@ -84,16 +88,20 @@
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/notification_template_lines.xml"
     },
     {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/activity_show_product_by_cattegory.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout/activity_show_product_by_cattegory.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -206,6 +214,10 @@
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/delete_product_dialog.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout/delete_product_dialog.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",

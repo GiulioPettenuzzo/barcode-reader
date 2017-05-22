@@ -12,4 +12,6 @@
     <string name="barcode_success">Barcode read successfully</string>
     <string name="barcode_failure">No barcode captured</string>
     <string name="barcode_error">"Error reading barcode: %1$s"</string>
+    <string name="title_activity_show_product_by_cattegory">ShowProductByCattegory</string>
+    <string name="delete_dialog">Are you sure you want to delete this product?</string>
 </resources>
