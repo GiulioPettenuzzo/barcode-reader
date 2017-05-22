@@ -4,10 +4,12 @@ package com.google.android.gms.samples.vision.barcodereader.entities;
  * Created by giuliopettenuzzo on 16/05/17.
  */
 
+import android.os.Parcelable;
+
 /**
  * this object's scope is manipulate the new attributes that the user will create witch have a name and a value
  */
-public interface Attribute {
+public interface Attribute extends Parcelable{
     /**
      * @return the name  of the new attributes
      */

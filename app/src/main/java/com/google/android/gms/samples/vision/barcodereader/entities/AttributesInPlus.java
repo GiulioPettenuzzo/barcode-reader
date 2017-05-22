@@ -1,5 +1,7 @@
 package com.google.android.gms.samples.vision.barcodereader.entities;
 
+import android.os.Parcel;
+
 import com.google.android.gms.samples.vision.barcodereader.entities.Attribute;
 
 /**
@@ -14,6 +16,24 @@ public class AttributesInPlus implements Attribute {
         this.name = name;
         this.value = value;
     }
+
+    public static final Creator<AttributesInPlus> CREATOR = new Creator<AttributesInPlus>() {
+        @Override
+        public AttributesInPlus createFromParcel(Parcel source) {
+            return new AttributesInPlus(source);
+        }
+
+        @Override
+        public AttributesInPlus[] newArray(int size) {
+            return new AttributesInPlus[size];
+        }
+    };
+
+    public AttributesInPlus(Parcel source) {
+        this(source.readString(),source.readString());
+    }
+
+
     @Override
     public String getName() {
         return name;
@@ -32,5 +52,16 @@ public class AttributesInPlus implements Attribute {
     @Override
     public void setValue(String value) {
         this.value = value;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(name);
+        dest.writeString(value);
     }
 }

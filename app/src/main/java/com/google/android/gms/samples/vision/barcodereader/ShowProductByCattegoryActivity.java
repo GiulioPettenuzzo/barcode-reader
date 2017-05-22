@@ -8,6 +8,7 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 
 import com.google.android.gms.samples.vision.barcodereader.adapters.ShowProductByCattegoryAdapter;
 import com.google.android.gms.samples.vision.barcodereader.adapters.helpers.ItemTouchHelperCallback;
+import com.google.android.gms.samples.vision.barcodereader.entities.Attribute;
 import com.google.android.gms.samples.vision.barcodereader.entities.Category;
 import com.google.android.gms.samples.vision.barcodereader.entities.Position;
 import com.google.android.gms.samples.vision.barcodereader.entities.Product;
@@ -23,7 +24,9 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager rVLayoutManager;
     private ShowProductByCattegoryAdapter showProductByCattegoryAdapter;
     private ItemTouchHelper itemTouchHelper;
+    private Category category;
 
+    private final String SAVE_CATEGORY = "save_category_instant_state";
 
 
     @Override
@@ -35,10 +38,28 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
         rVLayoutManager = new LinearLayoutManager(this);
         rVShowProduct.setLayoutManager(rVLayoutManager);
 
-        giveMeSomeProducts products = new giveMeSomeProducts();
-        RealCattegory cattegory = (RealCattegory) products.giveMeACattegory();
-        ArrayList<Product> listOfProduct = cattegory.getAllProduct();
-        showProductByCattegoryAdapter = new ShowProductByCattegoryAdapter(this,listOfProduct);
+        if(savedInstanceState!=null&&savedInstanceState.containsKey(SAVE_CATEGORY)){
+            category = (Category) savedInstanceState.getParcelable(SAVE_CATEGORY);
+            //the part of code below is for debug
+            String cattname = category.getName();
+            String catDesc = category.getDescription();
+            Position catPlace = category.getPosition();
+            for (Product currProduct:category.getAllProduct()) {
+                String name = currProduct.getName();
+                String barcode = currProduct.getBarcode();
+                String desc = currProduct.getDescription();
+                float price = currProduct.getPrice();
+                String imageUrl = currProduct.getImageURL();
+                ArrayList<Position> pos = currProduct.getPosition();
+                ArrayList<Attribute> attr = currProduct.getNewAttributes();
+            }
+        }
+        else{
+            giveMeSomeProducts products = new giveMeSomeProducts();
+            category = (RealCattegory) products.giveMeACattegory();
+        }
+
+        showProductByCattegoryAdapter = new ShowProductByCattegoryAdapter(this,category.getAllProduct());
         rVShowProduct.setAdapter(showProductByCattegoryAdapter);
         ItemTouchHelperCallback myItemTouchHelper = new ItemTouchHelperCallback(showProductByCattegoryAdapter);
         itemTouchHelper = new ItemTouchHelper(myItemTouchHelper);
@@ -46,6 +67,11 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putParcelable(SAVE_CATEGORY,category);
+        super.onSaveInstanceState(outState);
+    }
 
     private class giveMeSomeProducts{
 
@@ -68,7 +94,7 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
             Category cattegory = new RealCattegory("cattegoria1",position);
             String name;
             for(int i = 0;i<20;i++){
-                name = "Prodotto " + i;
+                name = "prod " + i;
                 Product product = new RealProduct("barcode",name,cattegory);
                 product.setPosition(productPosition);
                 product.setImageURL("http://www.donnamoderna.com/var/ezflow_site/storage/images/media/images/adv/moretti/birra-moretti/66481223-1-ita-IT/Birra-Moretti.jpg");

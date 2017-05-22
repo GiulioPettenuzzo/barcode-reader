@@ -1,5 +1,6 @@
 package com.google.android.gms.samples.vision.barcodereader.adapters;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -9,6 +10,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -71,7 +73,12 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
                 .execute(url);
 
     }
-
+    public void addProduct(Product product){
+        listOfProduct.add(product);
+    }
+    public void removeProduct(Product product){
+        listOfProduct.remove(product);
+    }
 
     @Override
     public int getItemCount() {
@@ -81,10 +88,32 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
 
 
     @Override
-    public void onItemSwiped(int position) {
-        Toast toast = Toast.makeText(context,"item swiped", Toast.LENGTH_SHORT);
-        toast.show();
-        notifyItemChanged(position);
+    public void onItemSwiped(final int position) {
+        final Dialog dialog = new Dialog(context);
+        dialog.setContentView(R.layout.delete_product_dialog);
+        Button cancel = (Button) dialog.findViewById(R.id.button_ok);
+        Button dontCancel = (Button) dialog.findViewById(R.id.button_no);
+        final int[] i = {0};
+
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                removeProduct(listOfProduct.get(position));
+                notifyDataSetChanged();
+                dialog.cancel();
+                i[0] =1;
+            }
+        });
+        dontCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                notifyItemChanged(position);
+                dialog.cancel();
+                i[0] = 1;
+            }
+        });
+        dialog.setCanceledOnTouchOutside(false);
+        dialog.show();
     }
 
 

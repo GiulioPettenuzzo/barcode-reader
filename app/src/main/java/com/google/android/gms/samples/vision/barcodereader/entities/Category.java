@@ -1,5 +1,7 @@
 package com.google.android.gms.samples.vision.barcodereader.entities;
 
+import android.os.Parcelable;
+
 import com.google.android.gms.samples.vision.barcodereader.entities.Position;
 import com.google.android.gms.samples.vision.barcodereader.entities.Product;
 
@@ -13,7 +15,7 @@ import java.util.ArrayList;
  * this object is created to group all the products that have somethink in common
  * the method in witch they will groupped will be choose from the user
  */
-public interface Category {
+public interface Category extends Parcelable{
     /**
      * the user can set the name
      * @param name

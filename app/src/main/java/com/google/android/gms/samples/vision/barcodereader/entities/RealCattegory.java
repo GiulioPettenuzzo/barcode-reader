@@ -1,5 +1,7 @@
 package com.google.android.gms.samples.vision.barcodereader.entities;
 
+import android.os.Parcel;
+
 import java.util.ArrayList;
 
 /**
@@ -18,6 +20,34 @@ public class RealCattegory implements Category {
         this.name = name;
         this.position = position;
     }
+
+    public RealCattegory(String name){
+        this.name = name;
+        this.position = new RealPosition("");
+    }
+
+    public static final Creator<RealCattegory> CREATOR = new Creator<RealCattegory>() {
+
+        @Override
+        public RealCattegory createFromParcel(Parcel source) {
+            return new RealCattegory(source);
+        }
+
+        @Override
+        public RealCattegory[] newArray(int size) {
+            return new RealCattegory[size];
+        }
+    };
+
+    public RealCattegory(Parcel source) {
+        this(source.readString());
+        for(int cycle = 0;cycle < source.dataSize();cycle++){
+            RealProduct realProduct = source.readParcelable(RealProduct.class.getClassLoader());
+            allProduct.add(realProduct);
+        }
+    }
+
+
 
     @Override
     public void setName(String name) {
@@ -76,5 +106,20 @@ public class RealCattegory implements Category {
             }
         }
         return productCounter;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(name);
+        dest.writeString(description);
+        dest.writeString(position.getName());
+        for (Product currentProduct:allProduct) {
+            dest.writeParcelable(currentProduct,flags);
+        }
     }
 }

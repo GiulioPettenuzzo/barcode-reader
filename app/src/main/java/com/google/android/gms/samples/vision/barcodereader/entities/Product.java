@@ -1,5 +1,7 @@
 package com.google.android.gms.samples.vision.barcodereader.entities;
 
+import android.os.Parcelable;
+
 import java.util.ArrayList;
 
 /**
@@ -10,7 +12,7 @@ import java.util.ArrayList;
 /**
  * this class represent a physical object, the same object the user detected scanning the barcode
  */
-public interface Product{
+public interface Product extends Parcelable{
     //name
     String getName();
     void setName(String name);
