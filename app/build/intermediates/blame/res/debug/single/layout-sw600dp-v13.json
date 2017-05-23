@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/28c6f8b306f9f47245766a6fa103eac05034a977/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\28c6f8b306f9f47245766a6fa103eac05034a977\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

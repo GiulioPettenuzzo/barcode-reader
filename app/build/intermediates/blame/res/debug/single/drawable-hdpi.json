@@ -1,22 +1,42 @@
 [
     {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
-        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/drawable-hdpi/icon.png"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chevron_right_black_24dp.png",
+        "source": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chevron_right_black_24dp.png"
     },
     {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_check_green_24dp.png",
-        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-hdpi/ic_check_green_24dp.png"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chevron_left_black_24dp.png",
+        "source": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chevron_left_black_24dp.png"
     },
     {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_chevron_right_black_24dp.png",
-        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-hdpi/ic_chevron_right_black_24dp.png"
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chevron_left_black_24dp.png",
+        "source": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chevron_left_black_24dp.png"
     },
     {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_chevron_left_black_24dp.png",
-        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-hdpi/ic_chevron_left_black_24dp.png"
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_save_black_24dp.png",
-        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-hdpi/ic_save_black_24dp.png"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_check_green_24dp.png",
+        "source": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_check_green_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_check_green_24dp.png",
+        "source": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_check_green_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_chevron_right_black_24dp.png",
+        "source": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chevron_right_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_save_black_24dp.png",
+        "source": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_save_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_save_black_24dp.png",
+        "source": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_save_black_24dp.png"
     }
 ]

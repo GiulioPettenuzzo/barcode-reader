@@ -26,7 +26,11 @@
         <activity
             android:name=".VolleyActivity"
             android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".BarcodeCaptureActivity"
@@ -35,11 +39,7 @@
             android:name=".MainActivity"
             android:label="Read Barcode" />
         <activity android:name=".ShowProductByCattegoryActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
     </application>
