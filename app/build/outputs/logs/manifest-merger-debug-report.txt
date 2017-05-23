@@ -1,141 +1,141 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:3:5-66
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:3:5-66
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
 	android:installLocation
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:4:5-35
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:4:5-35
 uses-feature#android.hardware.camera
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:6:5-60
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:6:5-60
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:6:19-57
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:6:19-57
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:8:5-65
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:8:22-62
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:8:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:9:5-67
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:9:5-67
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:11:5-45:19
-MERGED from [com.android.volley:volley:unspecified] C:\Users\loskimiko\Documents\GitHub\barcode-reader\volley\build\intermediates\bundles\default\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\loskimiko\.android\build-cache\8459f213fd579f578e8713e8e5f4dafad47c9396\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\loskimiko\.android\build-cache\dae603b2c0a991dd3b01622f606d96ec014152b1\output\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\loskimiko\.android\build-cache\f15be30f41881c066c66cc69b623d5a1cee4a59c\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\loskimiko\.android\build-cache\719f881a41c31485f12a5ffb42bca0b4451251af\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:design:24.2.0] C:\Users\loskimiko\.android\build-cache\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\loskimiko\.android\build-cache\5a12593544a61d9a4b94758ad7b38f534e078e70\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\loskimiko\.android\build-cache\02fe19cf006c307cdf925331e1c00f3230487cf9\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\loskimiko\.android\build-cache\fb175b3e004d2bc40a747941db2787ba796fbe29\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\loskimiko\.android\build-cache\033b80c5aba9c81d262ad2530e19b325e0f771b4\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\loskimiko\.android\build-cache\adc4084b1eb78b3f51c7fc32a7592b34a56d9e5d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\loskimiko\.android\build-cache\0f150ad4566432bea2e45f4c22ba719a04f01e83\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\loskimiko\.android\build-cache\1263e250522e0681e84db6d2e63a187d10265807\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\loskimiko\.android\build-cache\973c2ef2e9ec40f857ebe7f0e847d046a7ab60a0\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\loskimiko\.android\build-cache\4725538e8cfaf7c0f90a977d23180400602c76d1\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\loskimiko\.android\build-cache\8c82b04564338951f72652c431dfa0edb8a4ebf4\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:11:5-45:19
+MERGED from [com.android.volley:volley:unspecified] C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\volley\build\intermediates\bundles\default\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\LoSkimiko\.android\build-cache\3699a7dda09d34551c6a6c6f3aaabc00c3d35a50\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\LoSkimiko\.android\build-cache\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\LoSkimiko\.android\build-cache\eb2a7ef9a65be72ffc632b2a64d505e6d5080131\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\LoSkimiko\.android\build-cache\4b16a795233b81a208bd994587a4e7c5941b94ab\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:design:24.2.0] C:\Users\LoSkimiko\.android\build-cache\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\LoSkimiko\.android\build-cache\b50d73188381f95fa30cf3b1831298bc7a44fd8d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\LoSkimiko\.android\build-cache\3fad1a21b29aaf3b683846c3d5cf08b52656ff34\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\LoSkimiko\.android\build-cache\ac8467640e65ad01ac8ca62243b948548970669a\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\LoSkimiko\.android\build-cache\0768e75ba23fb1e8b0fc8f49641aeeff9149bca3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\LoSkimiko\.android\build-cache\6d178119938a2eb08e20243510fc9f44f6c47a79\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\LoSkimiko\.android\build-cache\77a5a21772d1f532fbe12e6caeb393809e561990\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\LoSkimiko\.android\build-cache\de33b98f533feffda11091c0fb9736dfffbf8f14\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\LoSkimiko\.android\build-cache\6e4d6cdfcf9fa2e331b4c8c2845c721f22676006\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\LoSkimiko\.android\build-cache\94b63f216e9413e91c94eab4223f2461b8f7e451\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\LoSkimiko\.android\build-cache\54724f22b0aedf531e3f48085d8bc05cf8b9b621\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:16:9-40
 	android:supportsRtl
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:17:9-35
 	android:hardwareAccelerated
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:14:9-43
 	android:fullBackupContent
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:13:9-42
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:13:9-42
 	android:allowBackup
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:15:9-38
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:15:9-38
 	android:theme
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:18:9-47
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:18:9-47
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:19:9-21:69
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\loskimiko\.android\build-cache\719f881a41c31485f12a5ffb42bca0b4451251af\output\AndroidManifest.xml:21:9-23:69
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:19:9-21:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\LoSkimiko\.android\build-cache\4b16a795233b81a208bd994587a4e7c5941b94ab\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:21:13-66
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:21:13-66
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:20:13-58
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:20:13-58
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:22:9-24:39
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:22:9-24:39
 	android:value
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:23:13-70
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:23:13-70
 activity#com.google.android.gms.samples.vision.barcodereader.VolleyActivity
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:26:9-34:20
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:26:9-34:20
 	android:label
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:27:13-43
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:27:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:32:27-74
 activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:35:9-37:44
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:35:9-37:44
 	android:label
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:37:13-41
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:36:13-51
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:36:13-51
 activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:38:9-40:44
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:38:9-40:44
 	android:label
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:40:13-41
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:40:13-41
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:39:13-41
 activity#com.google.android.gms.samples.vision.barcodereader.ShowProductByCattegoryActivity
-ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:41:9-44:20
+ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:41:9-44:20
 	android:name
-		ADDED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:41:19-65
+		ADDED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml:41:19-65
 uses-sdk
-INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.volley:volley:unspecified] C:\Users\loskimiko\Documents\GitHub\barcode-reader\volley\build\intermediates\bundles\default\AndroidManifest.xml:7:5-43
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\loskimiko\.android\build-cache\8459f213fd579f578e8713e8e5f4dafad47c9396\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\loskimiko\.android\build-cache\dae603b2c0a991dd3b01622f606d96ec014152b1\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\loskimiko\.android\build-cache\f15be30f41881c066c66cc69b623d5a1cee4a59c\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\loskimiko\.android\build-cache\719f881a41c31485f12a5ffb42bca0b4451251af\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:design:24.2.0] C:\Users\loskimiko\.android\build-cache\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\loskimiko\.android\build-cache\5a12593544a61d9a4b94758ad7b38f534e078e70\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\loskimiko\.android\build-cache\02fe19cf006c307cdf925331e1c00f3230487cf9\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\loskimiko\.android\build-cache\fb175b3e004d2bc40a747941db2787ba796fbe29\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\loskimiko\.android\build-cache\033b80c5aba9c81d262ad2530e19b325e0f771b4\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\loskimiko\.android\build-cache\adc4084b1eb78b3f51c7fc32a7592b34a56d9e5d\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\loskimiko\.android\build-cache\0f150ad4566432bea2e45f4c22ba719a04f01e83\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\loskimiko\.android\build-cache\1263e250522e0681e84db6d2e63a187d10265807\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\loskimiko\.android\build-cache\f7705782d73025127b782f41d91adc0f723a0dd4\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\loskimiko\.android\build-cache\973c2ef2e9ec40f857ebe7f0e847d046a7ab60a0\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\loskimiko\.android\build-cache\4725538e8cfaf7c0f90a977d23180400602c76d1\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\loskimiko\.android\build-cache\8c82b04564338951f72652c431dfa0edb8a4ebf4\output\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.volley:volley:unspecified] C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\volley\build\intermediates\bundles\default\AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\LoSkimiko\.android\build-cache\3699a7dda09d34551c6a6c6f3aaabc00c3d35a50\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\LoSkimiko\.android\build-cache\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\LoSkimiko\.android\build-cache\eb2a7ef9a65be72ffc632b2a64d505e6d5080131\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\LoSkimiko\.android\build-cache\4b16a795233b81a208bd994587a4e7c5941b94ab\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:24.2.0] C:\Users\LoSkimiko\.android\build-cache\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\LoSkimiko\.android\build-cache\b50d73188381f95fa30cf3b1831298bc7a44fd8d\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\LoSkimiko\.android\build-cache\3fad1a21b29aaf3b683846c3d5cf08b52656ff34\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\LoSkimiko\.android\build-cache\ac8467640e65ad01ac8ca62243b948548970669a\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\LoSkimiko\.android\build-cache\0768e75ba23fb1e8b0fc8f49641aeeff9149bca3\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\LoSkimiko\.android\build-cache\6d178119938a2eb08e20243510fc9f44f6c47a79\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\LoSkimiko\.android\build-cache\77a5a21772d1f532fbe12e6caeb393809e561990\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\LoSkimiko\.android\build-cache\de33b98f533feffda11091c0fb9736dfffbf8f14\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\LoSkimiko\.android\build-cache\4c8a350eb42fb1d8c91cabe0109a9d2f73c84eb8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\LoSkimiko\.android\build-cache\6e4d6cdfcf9fa2e331b4c8c2845c721f22676006\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\LoSkimiko\.android\build-cache\94b63f216e9413e91c94eab4223f2461b8f7e451\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\LoSkimiko\.android\build-cache\54724f22b0aedf531e3f48085d8bc05cf8b9b621\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\loskimiko\.android\build-cache\5a12593544a61d9a4b94758ad7b38f534e078e70\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\LoSkimiko\.android\build-cache\b50d73188381f95fa30cf3b1831298bc7a44fd8d\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\src\main\AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\loskimiko\.android\build-cache\dae603b2c0a991dd3b01622f606d96ec014152b1\output\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\LoSkimiko\.android\build-cache\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\output\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\loskimiko\.android\build-cache\dae603b2c0a991dd3b01622f606d96ec014152b1\output\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\LoSkimiko\.android\build-cache\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\output\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\loskimiko\.android\build-cache\dae603b2c0a991dd3b01622f606d96ec014152b1\output\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\LoSkimiko\.android\build-cache\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\output\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\loskimiko\.android\build-cache\dae603b2c0a991dd3b01622f606d96ec014152b1\output\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\LoSkimiko\.android\build-cache\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\output\AndroidManifest.xml:20:19-85

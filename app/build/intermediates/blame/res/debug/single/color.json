@@ -4,40 +4,56 @@
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\28c6f8b306f9f47245766a6fa103eac05034a977\\output\\res\\color\\design_error.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_edittext.xml"
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\\output\\res\\color\\design_error.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_default.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\09a085750c312867de9d6ee930c30792002fad67\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
@@ -60,28 +76,32 @@
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\09a085750c312867de9d6ee930c30792002fad67\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\dae603b2c0a991dd3b01622f606d96ec014152b1\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\dae603b2c0a991dd3b01622f606d96ec014152b1\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
@@ -92,68 +112,96 @@
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\28c6f8b306f9f47245766a6fa103eac05034a977\\output\\res\\color\\design_tint_password_toggle.xml"
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\dae603b2c0a991dd3b01622f606d96ec014152b1\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\09a085750c312867de9d6ee930c30792002fad67\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\09a085750c312867de9d6ee930c30792002fad67\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\09a085750c312867de9d6ee930c30792002fad67\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\\output\\res\\color\\design_error.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\09a085750c312867de9d6ee930c30792002fad67\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
         "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\09a085750c312867de9d6ee930c30792002fad67\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\09a085750c312867de9d6ee930c30792002fad67\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
@@ -164,28 +212,68 @@
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
         "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\28c6f8b306f9f47245766a6fa103eac05034a977\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\28c6f8b306f9f47245766a6fa103eac05034a977\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -196,7 +284,19 @@
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\1022722df4d909baa661a6ee76de6a8b59bc8712\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     }
 ]

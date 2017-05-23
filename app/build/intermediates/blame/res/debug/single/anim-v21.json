@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\28c6f8b306f9f47245766a6fa103eac05034a977\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
@@ -16,11 +16,23 @@
         "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\28c6f8b306f9f47245766a6fa103eac05034a977\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     },
     {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
         "source": "C:\\Users\\loskimiko\\.android\\build-cache\\cc4eeda7eecea8f06590e5d616cc2686171aaa8a\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "C:\\Users\\giuliopettenuzzo\\AndroidStudioProjects\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\giuliopettenuzzo\\.android\\build-cache\\28c6f8b306f9f47245766a6fa103eac05034a977\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

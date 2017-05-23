@@ -3,21 +3,228 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\LoSkimiko\.android\build-cache\94b63f216e9413e91c94eab4223f2461b8f7e451\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61dee2909cfe14614587260e4ed89d1d365344c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\77a5a21772d1f532fbe12e6caeb393809e561990\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3dbc71983a9126004453df0d51b2777cc3f9a9ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4298821de526a53ab43b45530d1266f78416e819\classes.dex" />
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_124aeaccfebf72df84bce4606c03b11ba0bafac8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\LoSkimiko\.android\build-cache\b50d73188381f95fa30cf3b1831298bc7a44fd8d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5593d386afcacb418ed5ac6c047c6b750f143577">
-        <dex dex="C:\Users\loskimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5b0a196c8103d4159f0193a513dca41eaacb3d5f\classes.dex" />
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e100bdf05a7955abaa94301329a45994e0eb18f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_7b1aa663820358b07b699ce3ffa3400732551669\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\3fad1a21b29aaf3b683846c3d5cf08b52656ff34\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_578038860850a155c9c75c5861f39ddfc0069c93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\6d178119938a2eb08e20243510fc9f44f6c47a79\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_c0917e3cb719bde57e8ab13c8868d032b328adae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\ac8467640e65ad01ac8ca62243b948548970669a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b4153b6dbc20f39e3040d843695cf3369c111b62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\4b16a795233b81a208bd994587a4e7c5941b94ab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_65f77d496fa609b187c7a89a831abb146b664957\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_3aa33c5ebcd6f171dd94ccd4e68db93aee7cf33e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_403a33913b4850529828ad42ed781441e28bd34a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\2d7e11e14a632beb4b49949e5624e3c3ec099ba0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0031ce3cd9d452b3e376f602f2059a6b6557c469\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\6d178119938a2eb08e20243510fc9f44f6c47a79\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bec4b1ea44d3189abcfb3bb15984b5b090d66837\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\4c8a350eb42fb1d8c91cabe0109a9d2f73c84eb8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ef8126485229891c96fdbf5b059f9a1864df5cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\3699a7dda09d34551c6a6c6f3aaabc00c3d35a50\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_201e2f8a6544ed5291bc59c387da17e666217646\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\de33b98f533feffda11091c0fb9736dfffbf8f14\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3f7090047b94b51de8ecb406c89222c1de12d06b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\6e4d6cdfcf9fa2e331b4c8c2845c721f22676006\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e7a9047b1a93e9a7ccf1ba057fd07b0b092cd321\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\54724f22b0aedf531e3f48085d8bc05cf8b9b621\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fee111203bf46a464e82c864dca4c965ed4ff03f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\6e4d6cdfcf9fa2e331b4c8c2845c721f22676006\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f75039be0507ce5666490bc645c43ce6bb462fff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\0768e75ba23fb1e8b0fc8f49641aeeff9149bca3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2efe7748fb8fb6c8014e4cf506b4eefefc9034e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\de33b98f533feffda11091c0fb9736dfffbf8f14\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6ee1262bafcdddabd88d178024d0e205ccbe040\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\77a5a21772d1f532fbe12e6caeb393809e561990\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6bde748624f55baf6fb4bbc3568a08d2ac448c5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\eb2a7ef9a65be72ffc632b2a64d505e6d5080131\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46881c5c99b4da589bfbca1ab574c392cb7017b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d993e9119025f8732f7072b01c359e3d64a32d3">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9effba8a64c6fa95d2e739f08cf01c7030e35449\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\LoSkimiko\.android\build-cache\94b63f216e9413e91c94eab4223f2461b8f7e451\output\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\LoSkimiko\Documents\GitHub\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ddfe2ef8401fe8279e90f66a1ab7a548debe67a9\classes.dex" />
     </item>
 
 </items>
