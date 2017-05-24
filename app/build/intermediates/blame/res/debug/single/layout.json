@@ -100,6 +100,10 @@
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/activity_show_product.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout/activity_show_product.xml"
+    },
+    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/activity_show_product_by_cattegory.xml",
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout/activity_show_product_by_cattegory.xml"
     },
