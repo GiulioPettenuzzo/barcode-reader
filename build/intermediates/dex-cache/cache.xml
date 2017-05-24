@@ -74,15 +74,6 @@
         <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-9.4.0_14be375967531140afd6da4125c27c279c2bfe44.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_5152646d5ed507fbae2eb4bfd3d2fe76a24d18cf.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
@@ -90,6 +81,15 @@
         revision="25.0.0"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9bfed345bb4ee42f695df9611db291c5b6a815e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_5152646d5ed507fbae2eb4bfd3d2fe76a24d18cf.jar" />
     </item>
     <item
         is-multidex="false"

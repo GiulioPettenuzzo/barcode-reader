@@ -3198,6 +3198,7 @@ containing a value of this type.
         public static final int clip_horizontal=0x7f0b0036;
         public static final int clip_vertical=0x7f0b0037;
         public static final int collapseActionView=0x7f0b0040;
+        public static final int constraintLayout=0x7f0b00a7;
         public static final int constraint_item_layout=0x7f0b00a5;
         public static final int contentPanel=0x7f0b005b;
         public static final int custom=0x7f0b0061;
@@ -3231,7 +3232,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f0b0041;
         public static final int image=0x7f0b0050;
         public static final int imageView=0x7f0b0085;
-        public static final int imageView3=0x7f0b00a9;
+        public static final int imageView3=0x7f0b00aa;
         public static final int info=0x7f0b00a3;
         public static final int item_touch_helper_previous_elevation=0x7f0b0005;
         public static final int left=0x7f0b0030;
@@ -3255,8 +3256,8 @@ containing a value of this type.
         public static final int photoButton=0x7f0b0086;
         public static final int pin=0x7f0b0035;
         public static final int preview=0x7f0b0089;
-        public static final int product_image=0x7f0b00a7;
-        public static final int product_name=0x7f0b00a6;
+        public static final int product_image=0x7f0b00a6;
+        public static final int product_name=0x7f0b00a9;
         public static final int product_number=0x7f0b00a8;
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
