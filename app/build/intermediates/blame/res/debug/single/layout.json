@@ -24,12 +24,12 @@
         "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\b50d73188381f95fa30cf3b1831298bc7a44fd8d\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\LoSkimiko\\.android\\build-cache\\7cd5522cb455994d971ad6d3f302d3a4f8a3e8e0\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\loskimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\loskimiko\\.android\\build-cache\\5a12593544a61d9a4b94758ad7b38f534e078e70\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Users\\LoSkimiko\\Documents\\GitHub\\barcode-reader\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",

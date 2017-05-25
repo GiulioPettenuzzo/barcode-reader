@@ -11,9 +11,11 @@ import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -28,12 +30,14 @@ import java.io.InputStream;
 
 public class VolleyActivity extends AppCompatActivity {
 
-    TextView mTextView;
+    TextView mTextView,mTextView2,mTextView3,mTextView4,mTextView5;
+    EditText mEditText2,mEditText3,mEditText4,mEditText5;
     ImageView mImageView;
     ImageButton buttonPrev;
     ImageButton buttonNext;
     ImageButton photoButton;
     ImageButton imageSelected;
+    ImageButton buttonSave;
 
     private int numPhotoSelected;
     private int maxNumImage;
@@ -48,6 +52,13 @@ public class VolleyActivity extends AppCompatActivity {
     // constants used to pass extra data in the intent
     public static final String initialYahooURL = "https://it.images.search.yahoo.com/search/images;_ylt=A9mSs3TQLxBZDrgATj0bDQx.;_ylu=X3oDMTB0ZTgxN3Q0BGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=";
     public static final String finalYahooURL = "&fr=yfp-t-909&fr2=piv-web";
+    public static final String prefix="inserisci ";
+    public static final String etichetta2="prodotto";
+    public static final String etichetta3="descrizione";
+    public static final String etichetta4="posizione";
+    public static final String etichetta5="categoria";
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +71,21 @@ public class VolleyActivity extends AppCompatActivity {
         buttonNext = (ImageButton) findViewById(R.id.button_next);
         photoButton = (ImageButton) findViewById(R.id.photoButton);
         imageSelected = (ImageButton) findViewById(R.id.saveImageButton);//
+        buttonSave = (ImageButton) findViewById(R.id.saveImageButton2);//
+
+
+
+        mTextView2 = (TextView)findViewById(R.id.textView2);
+        mTextView3 = (TextView)findViewById(R.id.textView3);
+        mTextView4 = (TextView)findViewById(R.id.textView4);
+        mTextView5 = (TextView)findViewById(R.id.textView5);
+
+        mEditText2 = (EditText)findViewById(R.id.editText2);
+        mEditText3 = (EditText)findViewById(R.id.editText3);
+        mEditText4 = (EditText)findViewById(R.id.editText4);
+        mEditText5 = (EditText)findViewById(R.id.editText5);
+
+        //String value = mEditText2.getText().toString();
 
 /**
         // THE PART OF THE CODE BELOW IS USED FOR SET THE ACTIVITY WITH THE BARCODE READER
@@ -73,6 +99,16 @@ public class VolleyActivity extends AppCompatActivity {
 */
         String url ="https://it.images.search.yahoo.com/search/images;_ylt=A9mSs3TQLxBZDrgATj0bDQx.;_ylu=X3oDMTB0ZTgxN3Q0BGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=8001435500013&fr=yfp-t-909&fr2=piv-web";
         mTextView.setText("8001435500013");
+
+        mTextView2.setText(etichetta2);
+        mTextView3.setText(etichetta3);
+        mTextView4.setText(etichetta4);
+        mTextView5.setText(etichetta5);
+        mEditText2.setText(prefix+etichetta2);
+        mEditText3.setText(prefix+etichetta3);
+        mEditText4.setText(prefix+etichetta4);
+        mEditText5.setText(prefix+etichetta5);
+
 
 
         RequestQueue queue = Volley.newRequestQueue(this);
@@ -101,6 +137,75 @@ public class VolleyActivity extends AppCompatActivity {
         });//
         // Add the request to the RequestQueue.
         queue.add(stringRequest);
+
+        mEditText2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                Toast msg = Toast.makeText(getBaseContext(), "Inserisci per favore il nome del "+etichetta2+".",Toast.LENGTH_LONG);
+
+                msg.show();
+
+            }
+
+        });
+        mEditText3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                Toast msg = Toast.makeText(getBaseContext(), "Inserisci per favore la "+etichetta3+" del "+etichetta2+".",Toast.LENGTH_LONG);
+
+                msg.show();
+
+            }
+
+        });
+        mEditText4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                Toast msg = Toast.makeText(getBaseContext(), "Inserisci per favore la "+etichetta4+" del "+etichetta2+".",Toast.LENGTH_LONG);
+
+                msg.show();
+
+            }
+
+        });
+        mEditText5.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                Toast msg = Toast.makeText(getBaseContext(), "Inserisci per favore la "+etichetta5+" del "+etichetta2+".",Toast.LENGTH_LONG);
+
+                msg.show();
+
+            }
+
+        });
+
+        buttonSave.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                Toast msg = Toast.makeText(getBaseContext(), "Procedo al salvataggio del prodotto.",Toast.LENGTH_LONG);
+
+                msg.show();
+
+            }
+
+        });
+
+
 
         buttonNext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -163,10 +268,18 @@ public class VolleyActivity extends AppCompatActivity {
         photoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dispatchTakePictureIntent();
+
+                Toast msg = Toast.makeText(getBaseContext(), "Procedo ad attivare lo scan.",Toast.LENGTH_LONG);
+
+                msg.show();
+
             }
+
         });
         loadAllImage();
+
+
+
 
     }
 
