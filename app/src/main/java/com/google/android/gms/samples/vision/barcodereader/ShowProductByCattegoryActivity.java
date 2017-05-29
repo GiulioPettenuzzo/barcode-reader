@@ -9,6 +9,7 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import com.google.android.gms.samples.vision.barcodereader.adapters.ShowProductByCattegoryAdapter;
 import com.google.android.gms.samples.vision.barcodereader.adapters.helpers.ItemTouchHelperCallback;
 import com.google.android.gms.samples.vision.barcodereader.entities.Attribute;
+import com.google.android.gms.samples.vision.barcodereader.entities.AttributesInPlus;
 import com.google.android.gms.samples.vision.barcodereader.entities.Category;
 import com.google.android.gms.samples.vision.barcodereader.entities.Position;
 import com.google.android.gms.samples.vision.barcodereader.entities.Product;
@@ -97,6 +98,10 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
                 name = "prod " + i;
                 Product product = new RealProduct("barcode",name,cattegory);
                 product.setPosition(productPosition);
+                product.setDescription("questa è la migliore birra italiana");
+                product.setPrice(50);
+                Attribute attribute = new AttributesInPlus("nome ","valore");
+                product.setNewAttribute(attribute);
                 product.setImageURL("http://www.donnamoderna.com/var/ezflow_site/storage/images/media/images/adv/moretti/birra-moretti/66481223-1-ita-IT/Birra-Moretti.jpg");
                 cattegory.addNewProduct(product);
             }

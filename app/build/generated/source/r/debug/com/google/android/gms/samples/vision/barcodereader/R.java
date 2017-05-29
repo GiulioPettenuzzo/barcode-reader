@@ -3179,6 +3179,7 @@ containing a value of this type.
         public static final int always=0x7f0b003f;
         public static final int auto=0x7f0b0029;
         public static final int auto_focus=0x7f0b007e;
+        public static final int barcode_text_view=0x7f0b00a7;
         public static final int barcode_value=0x7f0b007c;
         public static final int basic=0x7f0b0011;
         public static final int beginning=0x7f0b003b;
@@ -3198,7 +3199,7 @@ containing a value of this type.
         public static final int clip_horizontal=0x7f0b0036;
         public static final int clip_vertical=0x7f0b0037;
         public static final int collapseActionView=0x7f0b0040;
-        public static final int constraintLayout=0x7f0b00a7;
+        public static final int constraintLayout=0x7f0b00aa;
         public static final int constraint_item_layout=0x7f0b00a5;
         public static final int contentPanel=0x7f0b005b;
         public static final int custom=0x7f0b0061;
@@ -3206,6 +3207,7 @@ containing a value of this type.
         public static final int dark=0x7f0b0047;
         public static final int decor_content_parent=0x7f0b006a;
         public static final int default_activity_button=0x7f0b0051;
+        public static final int description_text_view=0x7f0b00a8;
         public static final int design_bottom_sheet=0x7f0b008f;
         public static final int design_menu_item_action_area=0x7f0b0096;
         public static final int design_menu_item_action_area_stub=0x7f0b0095;
@@ -3232,7 +3234,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f0b0041;
         public static final int image=0x7f0b0050;
         public static final int imageView=0x7f0b0085;
-        public static final int imageView3=0x7f0b00aa;
+        public static final int imageView3=0x7f0b00ae;
         public static final int info=0x7f0b00a3;
         public static final int item_touch_helper_previous_elevation=0x7f0b0005;
         public static final int left=0x7f0b0030;
@@ -3249,6 +3251,7 @@ containing a value of this type.
         public static final int never=0x7f0b0042;
         public static final int none=0x7f0b0013;
         public static final int normal=0x7f0b0015;
+        public static final int otherAttributes_text_view=0x7f0b00ad;
         public static final int packed=0x7f0b000e;
         public static final int parallax=0x7f0b0034;
         public static final int parent=0x7f0b000b;
@@ -3256,9 +3259,10 @@ containing a value of this type.
         public static final int photoButton=0x7f0b0086;
         public static final int pin=0x7f0b0035;
         public static final int preview=0x7f0b0089;
-        public static final int product_image=0x7f0b00a6;
-        public static final int product_name=0x7f0b00a9;
-        public static final int product_number=0x7f0b00a8;
+        public static final int price_text_view=0x7f0b00a6;
+        public static final int product_image=0x7f0b00a9;
+        public static final int product_name=0x7f0b00ac;
+        public static final int product_number=0x7f0b00ab;
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b0065;
