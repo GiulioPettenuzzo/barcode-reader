@@ -1,7 +1,9 @@
 package com.google.android.gms.samples.vision.barcodereader;
 
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
@@ -28,7 +30,7 @@ import java.io.InputStream;
 
 public class VolleyActivity extends AppCompatActivity {
 
-    TextView mTextView;
+    TextView barcodeView;
     ImageView mImageView;
     ImageButton buttonPrev;
     ImageButton buttonNext;
@@ -54,7 +56,7 @@ public class VolleyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_volley);
 
-        mTextView = (TextView) findViewById(R.id.textNumber);
+        barcodeView = (TextView) findViewById(R.id.barcode_view);
         mImageView = (ImageView) findViewById(R.id.imageView);
         buttonPrev = (ImageButton) findViewById(R.id.button_prev);
         buttonNext = (ImageButton) findViewById(R.id.button_next);
@@ -72,7 +74,7 @@ public class VolleyActivity extends AppCompatActivity {
         final String url = initialYahooURL + barcode.displayValue + finalYahooURL;
 */
         String url ="https://it.images.search.yahoo.com/search/images;_ylt=A9mSs3TQLxBZDrgATj0bDQx.;_ylu=X3oDMTB0ZTgxN3Q0BGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=8001435500013&fr=yfp-t-909&fr2=piv-web";
-        mTextView.setText("8001435500013");
+        barcodeView.setText("8001435500013");
 
 
         RequestQueue queue = Volley.newRequestQueue(this);
@@ -95,7 +97,7 @@ public class VolleyActivity extends AppCompatActivity {
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                mTextView.setText("That didn't work!");
+                barcodeView.setText("That didn't work!");
                 imageUrlUnpacker.setResponce("That didn't work!");
             }
         });//
@@ -163,6 +165,7 @@ public class VolleyActivity extends AppCompatActivity {
         photoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 dispatchTakePictureIntent();
             }
         });
@@ -210,11 +213,33 @@ public class VolleyActivity extends AppCompatActivity {
         }
     }
 
-    //class that send an intent to camera application and recive the extra as the image captured
+    //methods that send an intent to camera application and recive the extra as the image captured
     private void dispatchTakePictureIntent() {
+        if (checkSelfPermission(Manifest.permission.CAMERA)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            requestPermissions(new String[]{Manifest.permission.CAMERA},
+                    73883);
+        }
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        }
+    }
+
+    public void onRequestPermissionResult(int requestCode, String[] permissions, int[] grantResults) {
+        if (requestCode == 73883) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+                }
+            }
+            else {
+                // Your app will not have this permission. Turn off all functions
+                // that require this permission or it will force close like your
+                // original question
+            }
         }
     }
 

@@ -125,7 +125,6 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
             holder.otherAttributes.setEnabled(true);
             holder.itemView.setElevation(50);
             holder.isViewExpanded=true;
-            //holder.itemView.getLayoutParams().height = defaultHeight*3;
             /**
              * if the orienttion is lanscape you must regolate the layout param height
              */
@@ -137,6 +136,10 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
                 int attributeSpace = defaultHeight/4;//each attributes in plus needs this space
                 int height = defaultHeight*3 + attributeSpace*product.getNewAttributes().size();
                 holder.itemView.getLayoutParams().height = height;
+            }
+            else{
+                holder.itemView.getLayoutParams().height = defaultHeight*3;
+
             }
             holder.itemView.requestLayout();
 
