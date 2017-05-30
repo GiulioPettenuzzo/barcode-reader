@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
     android:layout_height="match_parent">
 
     <ScrollView
@@ -22,21 +24,122 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <EditText
-                android:id="@+id/description_view"
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraintLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginLeft="8dp"
-                android:layout_marginRight="0dp"
-                android:layout_marginTop="72dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="75dp"
+                app:layout_constraintLeft_toLeftOf="@+id/show_category_view"
+                app:layout_constraintRight_toRightOf="@+id/show_category_view"
+                app:layout_constraintTop_toBottomOf="@+id/show_category_view">
+
+                <TextView
+                    android:id="@+id/show_positions_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="8dp"
+                    android:text="TextView"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/position_view"
+                    android:layout_width="377dp"
+                    android:layout_height="41dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.246"
+                    app:layout_constraintLeft_toLeftOf="@+id/show_positions_view"
+                    app:layout_constraintRight_toLeftOf="@+id/add_pos_button"
+                    app:layout_constraintTop_toBottomOf="@+id/show_positions_view"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/add_pos_button"
+                    android:layout_width="88dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Button"
+                    app:layout_constraintRight_toRightOf="@+id/show_positions_view"
+                    app:layout_constraintTop_toBottomOf="@+id/show_positions_view"
+                    app:layout_constraintBottom_toBottomOf="@+id/position_view"
+                    android:layout_marginBottom="0dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <Spinner
+                android:id="@+id/show_category_view"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="74dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="@+id/price_view"
+                app:layout_constraintRight_toRightOf="@+id/price_view"
+                app:layout_constraintTop_toBottomOf="@+id/price_view" />
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="75dp"
+                android:text="Button"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintLeft_toLeftOf="@+id/button_add_attribute"
+                app:layout_constraintRight_toRightOf="@+id/button_add_attribute"
+                app:layout_constraintTop_toBottomOf="@+id/button_add_attribute"
+                android:layout_marginStart="8dp" />
+
+            <Button
+                android:id="@+id/button_add_attribute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="75dp"
+                android:text="Button"
+                app:layout_constraintLeft_toLeftOf="@+id/description_view"
+                app:layout_constraintRight_toRightOf="@+id/description_view"
+                app:layout_constraintTop_toBottomOf="@+id/description_view" />
+
+            <EditText
+                android:id="@+id/description_view"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="75dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="Name"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="@+id/position_view"
-                app:layout_constraintRight_toRightOf="@+id/position_view"
-                app:layout_constraintTop_toBottomOf="@+id/position_view" />
+                app:layout_constraintLeft_toLeftOf="@+id/constraintLayout2"
+                app:layout_constraintRight_toRightOf="@+id/constraintLayout2"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
 
             <ImageButton
                 android:id="@+id/button_prev"
@@ -45,18 +148,18 @@
                 android:layout_height="207dp"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
+                android:layout_marginBottom="8dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:adjustViewBounds="true"
                 android:cropToPadding="true"
                 android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_chevron_left_black_24dp"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView"
-                android:layout_marginBottom="8dp"
-                app:layout_constraintVertical_bias="0.839" />
+                app:layout_constraintVertical_bias="0.839"
+                app:srcCompat="@drawable/ic_chevron_left_black_24dp" />
 
             <TextView
                 android:id="@+id/barcode_view"
@@ -82,22 +185,22 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
+                android:layout_marginBottom="8dp"
                 android:layout_marginEnd="16dp"
+                android:layout_marginLeft="8dp"
                 android:layout_marginRight="16dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:adjustViewBounds="false"
                 android:cropToPadding="false"
                 android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toRightOf="@+id/imageView"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_chevron_right_black_24dp"
-                app:layout_constraintLeft_toRightOf="@+id/imageView"
-                android:layout_marginLeft="8dp"
-                android:layout_marginStart="8dp"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintBottom_toBottomOf="@+id/imageView"
-                android:layout_marginBottom="8dp"
-                app:layout_constraintVertical_bias="0.816" />
+                app:layout_constraintVertical_bias="0.816"
+                app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -157,14 +260,15 @@
                 android:id="@+id/name_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="72dp"
+                android:layout_marginTop="75dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="Name"
-                app:layout_constraintHorizontal_bias="0.594"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="@+id/imageView"
                 app:layout_constraintRight_toRightOf="@+id/imageView"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -175,34 +279,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginLeft="8dp"
-                android:layout_marginRight="0dp"
+                android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="72dp"
+                android:layout_marginTop="75dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="Name"
-                app:layout_constraintHorizontal_bias="0.125"
                 app:layout_constraintLeft_toLeftOf="@+id/name_view"
                 app:layout_constraintRight_toRightOf="@+id/name_view"
                 app:layout_constraintTop_toBottomOf="@+id/name_view"
                 app:layout_constraintVertical_chainStyle="packed" />
-
-            <EditText
-                android:id="@+id/position_view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="72dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="@+id/price_view"
-                app:layout_constraintRight_toRightOf="@+id/price_view"
-                app:layout_constraintTop_toBottomOf="@+id/price_view" />
 
         </android.support.constraint.ConstraintLayout>
     </ScrollView>

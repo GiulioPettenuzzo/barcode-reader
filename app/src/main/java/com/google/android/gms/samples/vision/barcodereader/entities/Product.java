@@ -34,6 +34,7 @@ public interface Product extends Parcelable{
     //new attributes
     ArrayList<Attribute> getNewAttributes();
     void setNewAttribute(Attribute attribute);
+    void setAllAttribute(ArrayList<Attribute> attributes);
     //cattegory
     Category getCattegory();
     void setCattegory(Category cattegory);

@@ -10,12 +10,20 @@ import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.text.InputType;
 import android.util.Log;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -23,9 +31,12 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.samples.vision.barcodereader.entities.Position;
+import com.google.android.gms.samples.vision.barcodereader.entities.RealPosition;
 import com.google.android.gms.samples.vision.barcodereader.urlManagement.ImageUrlUnpacker;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 
 
 public class VolleyActivity extends AppCompatActivity {
@@ -36,10 +47,19 @@ public class VolleyActivity extends AppCompatActivity {
     ImageButton buttonNext;
     ImageButton photoButton;
     ImageButton imageSelected;
+    EditText nameTextView;
+    EditText priceTextView;
+    EditText descriptionTextView;
+    EditText positionTextView;
+    Button addPosButton;
+    TextView showAllPositionsTextView;
+    Spinner showCategoryView;
+    Button addAttributeButton;
 
     private int numPhotoSelected;
     private int maxNumImage;
     boolean isClicked = false;
+    private ArrayList<Position> tempPosition = new ArrayList<>();
 
     ImageUrlUnpacker imageUrlUnpacker = new ImageUrlUnpacker();
 
@@ -54,6 +74,7 @@ public class VolleyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_volley);
 
         barcodeView = (TextView) findViewById(R.id.barcode_view);
@@ -61,10 +82,143 @@ public class VolleyActivity extends AppCompatActivity {
         buttonPrev = (ImageButton) findViewById(R.id.button_prev);
         buttonNext = (ImageButton) findViewById(R.id.button_next);
         photoButton = (ImageButton) findViewById(R.id.photoButton);
-        imageSelected = (ImageButton) findViewById(R.id.saveImageButton);//
+        imageSelected = (ImageButton) findViewById(R.id.saveImageButton);
+        nameTextView = (EditText) findViewById(R.id.name_view);
+        priceTextView = (EditText) findViewById(R.id.price_view);
+        descriptionTextView = (EditText) findViewById(R.id.description_view);
+        positionTextView = (EditText) findViewById(R.id.position_view);
+        addPosButton = (Button) findViewById(R.id.add_pos_button);
+        showAllPositionsTextView = (TextView) findViewById(R.id.show_positions_view);
+        showCategoryView = (Spinner) findViewById(R.id.show_category_view);
+        addAttributeButton = (Button) findViewById(R.id.button_add_attribute);
+
+
+        /**
+         * set the initial value of the text ho explain the user how the text view is used for
+         */
+        nameTextView.setText(R.string.insert_name);
+        nameTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+        descriptionTextView.setText(R.string.insert_description);
+        descriptionTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+        priceTextView.setText(R.string.insert_price);
+        priceTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+        positionTextView.setText(R.string.insert_new_place);
+        positionTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+        showAllPositionsTextView.setText("");
+        showAllPositionsTextView.setTextColor(getResources().getColor(android.R.color.white));
+
+
+
+        nameTextView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                nameTextView.setTextColor(getResources().getColor(android.R.color.white));
+
+                if(nameTextView.getText().toString().compareTo(getResources().getString(R.string.insert_name))==0) {
+                    nameTextView.getText().clear();//clear the text when the user press it for the first time
+                }
+                else if(nameTextView.getText().length()==0){
+                    nameTextView.setText(R.string.insert_name);
+                    nameTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                }
+                Toast toast = Toast.makeText(getApplicationContext(),nameTextView.getText(),Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
+
+        priceTextView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                priceTextView.setTextColor(getResources().getColor(android.R.color.white));
+                priceTextView.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL | InputType.TYPE_NUMBER_FLAG_SIGNED);
+                if(priceTextView.getText().toString().compareTo(getResources().getString(R.string.insert_price))==0){
+                    priceTextView.getText().clear();
+                }
+                else if(priceTextView.getText().length()==0){
+                    priceTextView.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_FLAG_DECIMAL | InputType.TYPE_NUMBER_FLAG_SIGNED);
+                    priceTextView.setText(R.string.insert_price);
+                    priceTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                }
+                Toast toast = Toast.makeText(getApplicationContext(),nameTextView.getText(),Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
+
+        positionTextView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                positionTextView.setTextColor(getResources().getColor(android.R.color.white));
+                if(positionTextView.getText().toString().compareTo(getResources().getString(R.string.insert_new_place))==0){
+                    positionTextView.getText().clear();
+                }
+                else if(positionTextView.getText().length()==0){
+                    positionTextView.setText(R.string.insert_new_place);
+                    positionTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                }
+            }
+        });
+
+        addPosButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(positionTextView.getText().toString().compareTo(getResources().getString(R.string.insert_new_place))!=0) {
+                    Position position = new RealPosition(positionTextView.getText().toString());
+                    tempPosition.add(position);
+                    positionTextView.setText(R.string.insert_new_place);
+                    positionTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                    showAllPositionsTextView.setText(getAllPositionInString());
+                    positionTextView.getText().clear();
+                    if(positionTextView.hasFocus()==true){
+                        positionTextView.setTextColor(getResources().getColor(android.R.color.white));
+                    }
+                    else{
+                        positionTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+
+                    }
+
+                }
+                else{
+                    Toast toast = Toast.makeText(getApplicationContext(),R.string.position_allert,Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+            }
+        });
+
+        descriptionTextView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                descriptionTextView.setTextColor(getResources().getColor(android.R.color.white));
+                if(descriptionTextView.getText().toString().compareTo(getResources().getString(R.string.insert_description))==0){
+                    descriptionTextView.getText().clear();
+                }
+                else if(descriptionTextView.getText().length()==0){
+                    descriptionTextView.setText(R.string.insert_description);
+                    descriptionTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                }
+                Toast toast = Toast.makeText(getApplicationContext(),descriptionTextView.getText(),Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
+
+        final ConstraintLayout constraintLayout = new ConstraintLayout(getApplicationContext());
+        addAttributeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText nameEditText = new EditText(getApplicationContext());
+                ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(
+                        android.widget.LinearLayout.LayoutParams.MATCH_PARENT,
+                        android.widget.LinearLayout.LayoutParams.WRAP_CONTENT);
+                nameEditText.setLayoutParams(params);
+                nameEditText.setText("nuova edit Text");
+                constraintLayout.addView(nameEditText);
+                //nameEditText.layout(0,R.id.description_view,);
+            }
+        });
+
+
 
 /**
-        // THE PART OF THE CODE BELOW IS USED FOR SET THE ACTIVITY WITH THE BARCODE READER
+ // THE PART OF THE CODE BELOW IS USED FOR SET THE ACTIVITY WITH THE BARCODE READER
          Intent intent = getIntent();
          Barcode barcode = intent.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
 
@@ -171,6 +325,14 @@ public class VolleyActivity extends AppCompatActivity {
         });
         loadAllImage();
 
+    }
+
+    private String getAllPositionInString(){
+        String totPosition = "";
+        for (Position currentPosition:tempPosition) {
+            totPosition = totPosition + " - "  + currentPosition.getName();
+        }
+        return totPosition;
     }
 
     /**

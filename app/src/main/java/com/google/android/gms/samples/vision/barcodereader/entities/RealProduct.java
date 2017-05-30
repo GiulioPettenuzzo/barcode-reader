@@ -126,6 +126,11 @@ public class RealProduct implements Product {
     }
 
     @Override
+    public void setAllAttribute(ArrayList<Attribute> attributes) {
+        attributesInPlus = attributes;
+    }
+
+    @Override
     public Category getCattegory() {
         return cattegory;
     }
