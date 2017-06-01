@@ -695,6 +695,8 @@
     <string name="insert_new_place">Insert New Place</string>
     <string name="insert_price">Insert Price (euro)</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="new_attribute_name">insert new attribute\'s name</string>
+    <string name="new_attribute_value">insert new attribute\'s value</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">OK</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>

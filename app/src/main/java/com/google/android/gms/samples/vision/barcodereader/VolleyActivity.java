@@ -11,16 +11,20 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.constraint.ConstraintLayout;
+import android.support.constraint.ConstraintSet;
 import android.support.v7.app.AppCompatActivity;
 import android.text.InputType;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -60,6 +64,7 @@ public class VolleyActivity extends AppCompatActivity {
     private int maxNumImage;
     boolean isClicked = false;
     private ArrayList<Position> tempPosition = new ArrayList<>();
+    private int numberOfAttributeInPlus = 100;
 
     ImageUrlUnpacker imageUrlUnpacker = new ImageUrlUnpacker();
 
@@ -200,18 +205,121 @@ public class VolleyActivity extends AppCompatActivity {
             }
         });
 
-        final ConstraintLayout constraintLayout = new ConstraintLayout(getApplicationContext());
+        /**
+         * this Button Allowd to insert programmatically two EditText witch the user will insert
+         * the name and the values of the new attribute
+         */
         addAttributeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText nameEditText = new EditText(getApplicationContext());
-                ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(
-                        android.widget.LinearLayout.LayoutParams.MATCH_PARENT,
-                        android.widget.LinearLayout.LayoutParams.WRAP_CONTENT);
-                nameEditText.setLayoutParams(params);
-                nameEditText.setText("nuova edit Text");
-                constraintLayout.addView(nameEditText);
-                //nameEditText.layout(0,R.id.description_view,);
+
+                ConstraintLayout layout = (ConstraintLayout)findViewById(R.id.constraint);
+                ConstraintSet set = new ConstraintSet();
+                set.clone(layout);
+                final EditText nameTextEdit = new EditText(getApplicationContext());
+                final EditText valueTextEdit = new EditText(getApplicationContext());
+
+                /**
+                 * if the text edit setting programmatically is the first item setted it will connect between
+                 * description view and addAttributeButton
+                 * otherwise it will set between the last edit text created programmatically and the addAttributeButton
+                 */
+                if(numberOfAttributeInPlus==100) {
+                    //name Text Edit:
+                    nameTextEdit.setText(R.string.new_attribute_name);
+                    nameTextEdit.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                    nameTextEdit.setId(numberOfAttributeInPlus);
+                    layout.addView(nameTextEdit);
+                    set.connect(nameTextEdit.getId(), ConstraintSet.TOP, R.id.description_view, ConstraintSet.BOTTOM, 150);
+                    set.connect(nameTextEdit.getId(), ConstraintSet.RIGHT, R.id.description_view, ConstraintSet.RIGHT, 0);
+                    set.connect(nameTextEdit.getId(), ConstraintSet.LEFT, R.id.description_view, ConstraintSet.LEFT, 0);
+                    set.constrainHeight(nameTextEdit.getId(), ConstraintSet.WRAP_CONTENT);
+
+                    set.applyTo(layout);
+
+
+                    //Value TextEdit:
+                    numberOfAttributeInPlus = numberOfAttributeInPlus + 100;
+                    valueTextEdit.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                    valueTextEdit.setText(R.string.new_attribute_value);
+                    valueTextEdit.setId(numberOfAttributeInPlus);
+                    layout.addView(valueTextEdit);
+                    set.connect(valueTextEdit.getId(), ConstraintSet.TOP, nameTextEdit.getId(), ConstraintSet.BOTTOM, 75);
+                    set.connect(valueTextEdit.getId(), ConstraintSet.RIGHT, nameTextEdit.getId(), ConstraintSet.RIGHT, 0);
+                    set.connect(valueTextEdit.getId(), ConstraintSet.LEFT, nameTextEdit.getId(), ConstraintSet.LEFT, 0);
+                    set.constrainHeight(valueTextEdit.getId(), ConstraintSet.WRAP_CONTENT);
+
+                    set.applyTo(layout);
+
+
+                    //ri-set the constraint of button
+                    set.connect(addAttributeButton.getId(), ConstraintSet.TOP, valueTextEdit.getId(), ConstraintSet.BOTTOM, 75);
+                    set.connect(addAttributeButton.getId(), ConstraintSet.LEFT, valueTextEdit.getId(), ConstraintSet.LEFT, 0);
+                    set.connect(addAttributeButton.getId(), ConstraintSet.RIGHT, valueTextEdit.getId(), ConstraintSet.RIGHT, 0);
+                    set.applyTo(layout);
+                    numberOfAttributeInPlus = numberOfAttributeInPlus + 100;
+                }
+                else{
+                    nameTextEdit.setText(R.string.new_attribute_name);
+                    nameTextEdit.setTextColor(getResources().getColor(android.R.color.darker_gray));
+
+                    nameTextEdit.setId(numberOfAttributeInPlus);
+                    layout.addView(nameTextEdit);
+                    set.connect(nameTextEdit.getId(), ConstraintSet.TOP, numberOfAttributeInPlus-100, ConstraintSet.BOTTOM, 150);
+                    set.connect(nameTextEdit.getId(), ConstraintSet.RIGHT, numberOfAttributeInPlus-100, ConstraintSet.RIGHT, 0);
+                    set.connect(nameTextEdit.getId(), ConstraintSet.LEFT, numberOfAttributeInPlus-100, ConstraintSet.LEFT, 0);
+                    set.constrainHeight(nameTextEdit.getId(), ConstraintSet.WRAP_CONTENT);
+
+                    set.applyTo(layout);
+
+
+                    //Value TextEdit:
+                    numberOfAttributeInPlus = numberOfAttributeInPlus + 100;
+                    valueTextEdit.setText(R.string.new_attribute_value);
+                    valueTextEdit.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                    valueTextEdit.setId(numberOfAttributeInPlus);
+                    layout.addView(valueTextEdit);
+                    set.connect(valueTextEdit.getId(), ConstraintSet.TOP, numberOfAttributeInPlus-100, ConstraintSet.BOTTOM, 75);
+                    set.connect(valueTextEdit.getId(), ConstraintSet.RIGHT, numberOfAttributeInPlus-100, ConstraintSet.RIGHT, 0);
+                    set.connect(valueTextEdit.getId(), ConstraintSet.LEFT, numberOfAttributeInPlus-100, ConstraintSet.LEFT, 0);
+                    set.constrainHeight(valueTextEdit.getId(), ConstraintSet.WRAP_CONTENT);
+
+                    set.applyTo(layout);
+
+
+                    //ri-set the constraint of button
+                    set.connect(addAttributeButton.getId(), ConstraintSet.TOP, numberOfAttributeInPlus, ConstraintSet.BOTTOM, 75);
+                    set.connect(addAttributeButton.getId(), ConstraintSet.LEFT, numberOfAttributeInPlus, ConstraintSet.LEFT, 0);
+                    set.connect(addAttributeButton.getId(), ConstraintSet.RIGHT, numberOfAttributeInPlus, ConstraintSet.RIGHT, 0);
+                    set.applyTo(layout);
+                    numberOfAttributeInPlus = numberOfAttributeInPlus + 100;
+                }
+                nameTextEdit.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                    @Override
+                    public void onFocusChange(View v, boolean hasFocus) {
+                        nameTextEdit.setTextColor(getResources().getColor(android.R.color.white));
+                        if(nameTextEdit.getText().toString().compareTo(getResources().getString(R.string.new_attribute_name))==0){
+                            nameTextEdit.getText().clear();
+                        }
+                        else if(nameTextEdit.getText().length()==0){
+                            nameTextEdit.setText(R.string.new_attribute_name);
+                            nameTextEdit.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                        }
+                    }
+                });
+                valueTextEdit.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                    @Override
+                    public void onFocusChange(View v, boolean hasFocus) {
+                        valueTextEdit.setTextColor(getResources().getColor(android.R.color.white));
+                        if(valueTextEdit.getText().toString().compareTo(getResources().getString(R.string.new_attribute_value))==0){
+                            valueTextEdit.getText().clear();
+                        }
+                        else if(valueTextEdit.getText().length()==0){
+                            valueTextEdit.setText(R.string.new_attribute_value);
+                            valueTextEdit.setTextColor(getResources().getColor(android.R.color.darker_gray));
+                        }
+                    }
+                });
             }
         });
 

@@ -19,4 +19,6 @@
     <string name="insert_description">Insert Description</string>
     <string name="insert_new_place">Insert New Place</string>
     <string name="position_allert">first of all you must insert a positions name</string>
+    <string name="new_attribute_name">insert new attribute\'s name</string>
+    <string name="new_attribute_value">insert new attribute\'s value</string>
 </resources>
