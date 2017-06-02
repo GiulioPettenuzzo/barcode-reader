@@ -21,4 +21,7 @@
     <string name="position_allert">first of all you must insert a positions name</string>
     <string name="new_attribute_name">insert new attribute\'s name</string>
     <string name="new_attribute_value">insert new attribute\'s value</string>
+    <string name="insert_category_name">insert category name</string>
+    <string name="insert_category_position">insert category position(optional)</string>
+    <string name="insert_category_description">insert category description(optional)</string>
 </resources>

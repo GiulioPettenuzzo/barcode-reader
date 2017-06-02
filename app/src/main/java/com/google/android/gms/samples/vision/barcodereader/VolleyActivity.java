@@ -35,9 +35,17 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.samples.vision.barcodereader.adapters.SpinnerListAdapter;
+import com.google.android.gms.samples.vision.barcodereader.entities.Attribute;
+import com.google.android.gms.samples.vision.barcodereader.entities.AttributesInPlus;
+import com.google.android.gms.samples.vision.barcodereader.entities.Category;
 import com.google.android.gms.samples.vision.barcodereader.entities.Position;
+import com.google.android.gms.samples.vision.barcodereader.entities.Product;
+import com.google.android.gms.samples.vision.barcodereader.entities.RealCattegory;
 import com.google.android.gms.samples.vision.barcodereader.entities.RealPosition;
+import com.google.android.gms.samples.vision.barcodereader.entities.RealProduct;
 import com.google.android.gms.samples.vision.barcodereader.urlManagement.ImageUrlUnpacker;
+import com.google.android.gms.vision.barcode.Barcode;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -56,15 +64,21 @@ public class VolleyActivity extends AppCompatActivity {
     EditText descriptionTextView;
     EditText positionTextView;
     Button addPosButton;
-    TextView showAllPositionsTextView;
+    public TextView showAllPositionsTextView;
     Spinner showCategoryView;
     Button addAttributeButton;
+    Button saveButton;
 
     private int numPhotoSelected;
     private int maxNumImage;
     boolean isClicked = false;
-    private ArrayList<Position> tempPosition = new ArrayList<>();
+    public ArrayList<Position> tempPosition = new ArrayList<>();
+    public ArrayList<Attribute> attributeInPlas = new ArrayList<>();
     private int numberOfAttributeInPlus = 100;
+    private SpinnerListAdapter spinnerListAdapter;
+    private Category checkCategory;
+    private String imageUrl;
+    private String stringBarcode;
 
     ImageUrlUnpacker imageUrlUnpacker = new ImageUrlUnpacker();
 
@@ -94,10 +108,20 @@ public class VolleyActivity extends AppCompatActivity {
         positionTextView = (EditText) findViewById(R.id.position_view);
         addPosButton = (Button) findViewById(R.id.add_pos_button);
         showAllPositionsTextView = (TextView) findViewById(R.id.show_positions_view);
-        showCategoryView = (Spinner) findViewById(R.id.show_category_view);
         addAttributeButton = (Button) findViewById(R.id.button_add_attribute);
+        saveButton = (Button) findViewById(R.id.button_save);
 
-
+        showCategoryView = (Spinner) findViewById(R.id.show_category_view);
+        spinnerListAdapter = new SpinnerListAdapter(this,R.layout.spinner_list_item,giveMeACategory());
+        showCategoryView.setAdapter(spinnerListAdapter);
+        showCategoryView.setOnItemSelectedListener(spinnerListAdapter);
+        spinnerListAdapter.setTextView(showAllPositionsTextView);
+        if(spinnerListAdapter.getSelectedCategory()!=null) {
+            if (spinnerListAdapter.getSelectedCategory().getName().compareTo("<none>") != 0) {
+                tempPosition.add(spinnerListAdapter.getSelectedCategory().getPosition());
+                showAllPositionsTextView.setText(getAllPositionInString());
+            }
+        }
         /**
          * set the initial value of the text ho explain the user how the text view is used for
          */
@@ -110,7 +134,7 @@ public class VolleyActivity extends AppCompatActivity {
         positionTextView.setText(R.string.insert_new_place);
         positionTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
         showAllPositionsTextView.setText("");
-        showAllPositionsTextView.setTextColor(getResources().getColor(android.R.color.white));
+        showAllPositionsTextView.setTextColor(getResources().getColor(android.R.color.holo_green_light));
 
 
 
@@ -126,8 +150,6 @@ public class VolleyActivity extends AppCompatActivity {
                     nameTextView.setText(R.string.insert_name);
                     nameTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
                 }
-                Toast toast = Toast.makeText(getApplicationContext(),nameTextView.getText(),Toast.LENGTH_SHORT);
-                toast.show();
             }
         });
 
@@ -144,8 +166,6 @@ public class VolleyActivity extends AppCompatActivity {
                     priceTextView.setText(R.string.insert_price);
                     priceTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
                 }
-                Toast toast = Toast.makeText(getApplicationContext(),nameTextView.getText(),Toast.LENGTH_SHORT);
-                toast.show();
             }
         });
 
@@ -200,8 +220,6 @@ public class VolleyActivity extends AppCompatActivity {
                     descriptionTextView.setText(R.string.insert_description);
                     descriptionTextView.setTextColor(getResources().getColor(android.R.color.darker_gray));
                 }
-                Toast toast = Toast.makeText(getApplicationContext(),descriptionTextView.getText(),Toast.LENGTH_SHORT);
-                toast.show();
             }
         });
 
@@ -320,6 +338,7 @@ public class VolleyActivity extends AppCompatActivity {
                         }
                     }
                 });
+
             }
         });
 
@@ -336,7 +355,8 @@ public class VolleyActivity extends AppCompatActivity {
         final String url = initialYahooURL + barcode.displayValue + finalYahooURL;
 */
         String url ="https://it.images.search.yahoo.com/search/images;_ylt=A9mSs3TQLxBZDrgATj0bDQx.;_ylu=X3oDMTB0ZTgxN3Q0BGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=8001435500013&fr=yfp-t-909&fr2=piv-web";
-        barcodeView.setText("8001435500013");
+        stringBarcode = "8001435500013";
+        barcodeView.setText(stringBarcode);
 
 
         RequestQueue queue = Volley.newRequestQueue(this);
@@ -413,6 +433,8 @@ public class VolleyActivity extends AppCompatActivity {
                    buttonNext.setVisibility(View.GONE);
                    photoButton.setVisibility(View.GONE);
                    isClicked = true;
+                   imageUrlUnpacker.setImageNum(numPhotoSelected);
+                   imageUrl = imageUrlUnpacker.getMyString();
                }
                else{
                    imageSelected.setImageDrawable(drawable_not_saved);
@@ -433,15 +455,126 @@ public class VolleyActivity extends AppCompatActivity {
         });
         loadAllImage();
 
+        saveButton.setOnClickListener(new View.OnClickListener() {
+            String name = null;
+            String description = null;
+            String price = null;
+            String imageURL = null;
+            Position position = null;
+            Category category = null;
+            Product finalProduct = null;
+            @Override
+            public void onClick(View v) {
+                if(descriptionTextView.getText().toString().compareTo(getResources().getString(R.string.insert_description))!=0
+                        &&descriptionTextView.getText().toString().length()!=0){
+                    description = descriptionTextView.getText().toString();
+                }
+                if(priceTextView.getText().toString().compareTo(getResources().getString(R.string.insert_price))!=0
+                        &&priceTextView.getText().toString().length()!=0){
+                    price = priceTextView.getText().toString();
+                }
+
+                if(getAllPositionInString().compareTo("")!=0){
+                    position = new RealPosition(getAllPositionInString());
+                }
+                if(imageUrl!=null){
+                    imageURL = imageUrl;
+                }
+                if(numberOfAttributeInPlus!=100) {
+                    for (int i = 100; i < numberOfAttributeInPlus; i = i + 200) {
+                        EditText name = (EditText) findViewById(i);
+                        EditText value = (EditText) findViewById(i + 100);
+                        Attribute attribute = new AttributesInPlus(name.getText().toString(), value.getText().toString());
+                        attributeInPlas.add(attribute);
+                    }
+                }
+                if(spinnerListAdapter.getSelectedCategory()!=null){
+                    category = spinnerListAdapter.getSelectedCategory();
+                }
+
+                if(nameTextView.getText().toString().compareTo(getResources().getString(R.string.insert_name))==0
+                        ||nameTextView.getText().toString().length()==0){
+                    Toast toast = Toast.makeText(getApplicationContext(),"you must insert a category name",Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+                else{
+                    name = nameTextView.getText().toString();
+                    if(spinnerListAdapter.getSelectedCategory()==null){
+                        finalProduct = new RealProduct(stringBarcode,name);
+                    }
+                    else {
+                        finalProduct = new RealProduct(stringBarcode, name, category);
+                        if(description!=null){
+                            finalProduct.setDescription(description);
+                        }
+                        if(price!=null){
+                            finalProduct.setPrice(Float.parseFloat(price));
+                        }
+                        if(imageURL!=null){
+                            finalProduct.setImageURL(imageURL);
+                        }
+                        if(position!=null){
+                            finalProduct.setPosition(position);
+                        }
+                        if(attributeInPlas.isEmpty()==false) {
+                            finalProduct.setAllAttribute(attributeInPlas);
+                        }
+                    }
+                    Log.i("product inserted",finalProduct.getName() + String.valueOf(finalProduct.getPrice()) + finalProduct.getCattegory().getName() +finalProduct.getBarcode()
+                    + finalProduct.getDescription() + finalProduct.getImageURL());
+                    for (Attribute currAtt:finalProduct.getNewAttributes()) {
+                        Log.i("attribute",currAtt.getName() + currAtt.getValue());
+                    }
+                    for (Position currPos:finalProduct.getPosition()) {
+                        Log.i("attribute",currPos.getName());
+                    }
+                    //TODO inviare l'intent
+                }
+
+            }
+        });
+
+
     }
 
     private String getAllPositionInString(){
         String totPosition = "";
+        if(checkCategory==null) {
+            if (spinnerListAdapter.getSelectedCategory() != null) {
+                Category categoryForPosition = spinnerListAdapter.getSelectedCategory();
+                checkCategory = categoryForPosition;
+                if (categoryForPosition.getPosition() != null) {
+                    String catName = categoryForPosition.getPosition().getName();
+                    totPosition = categoryForPosition.getPosition().getName();
+                }
+            }
+        }
+        else{
+            if(checkCategory.getName().compareTo(spinnerListAdapter.getSelectedCategory().getName())==0){
+                Category categoryForPosition = spinnerListAdapter.getSelectedCategory();
+                if (categoryForPosition.getPosition() != null) {
+                    String catName = categoryForPosition.getPosition().getName();
+                    totPosition = categoryForPosition.getPosition().getName();
+                }
+            }
+            else{
+                Category categoryForPosition = spinnerListAdapter.getSelectedCategory();
+                checkCategory = categoryForPosition;
+                if (categoryForPosition.getPosition() != null) {
+                    String catName = categoryForPosition.getPosition().getName();
+                    totPosition = categoryForPosition.getPosition().getName();
+                }
+                Position lastPos = tempPosition.get(tempPosition.size()-1);
+                tempPosition.clear();
+                tempPosition.add(lastPos);
+            }
+        }
         for (Position currentPosition:tempPosition) {
             totPosition = totPosition + " - "  + currentPosition.getName();
         }
         return totPosition;
     }
+
 
     /**
      * inner class that get the image from url string
@@ -523,6 +656,21 @@ public class VolleyActivity extends AppCompatActivity {
             buttonNext.setVisibility(View.GONE);
             photoButton.setVisibility(View.GONE);
         }
+    }
+
+    //for debug
+    public ArrayList<Category> giveMeACategory(){
+        ArrayList<Category> allCategory = new ArrayList<>();
+        Category initaial = new RealCattegory("<none>");
+        allCategory.add(initaial);
+        for(int i = 1;i<=10;i++){
+            Category category = new RealCattegory("cattegoria " + i);
+            category.setPosition(new RealPosition("pos" + i));
+            allCategory.add(category);
+        }
+        Category catForCreate = new RealCattegory("crea nuova cattegoria");
+        allCategory.add(catForCreate);
+        return allCategory;
     }
 
 }

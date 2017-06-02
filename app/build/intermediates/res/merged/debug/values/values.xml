@@ -690,6 +690,9 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="delete_dialog">Are you sure you want to delete this product?</string>
+    <string name="insert_category_description">insert category description(optional)</string>
+    <string name="insert_category_name">insert category name</string>
+    <string name="insert_category_position">insert category position(optional)</string>
     <string name="insert_description">Insert Description</string>
     <string name="insert_name">Insert Name</string>
     <string name="insert_new_place">Insert New Place</string>
