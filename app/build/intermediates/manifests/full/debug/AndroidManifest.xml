@@ -33,11 +33,6 @@
             android:name="com.google.android.gms.samples.vision.barcodereader.VolleyActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity"
@@ -45,7 +40,13 @@
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.MainActivity"
             android:label="Read Barcode" />
-        <activity android:name="com.google.android.gms.samples.vision.barcodereader.ShowProductByCattegoryActivity" >
+        <activity android:name="com.google.android.gms.samples.vision.barcodereader.ShowProductByCattegoryActivity" />
+        <activity android:name="com.google.android.gms.samples.vision.barcodereader.ShowCategoryActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
