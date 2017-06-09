@@ -27,6 +27,7 @@ import com.google.android.gms.samples.vision.barcodereader.R;
 import com.google.android.gms.samples.vision.barcodereader.ShowProductByCattegoryActivity;
 import com.google.android.gms.samples.vision.barcodereader.adapters.helpers.ItemTouchHelperAdapter;
 import com.google.android.gms.samples.vision.barcodereader.entities.Attribute;
+import com.google.android.gms.samples.vision.barcodereader.entities.Category;
 import com.google.android.gms.samples.vision.barcodereader.entities.Position;
 import com.google.android.gms.samples.vision.barcodereader.entities.Product;
 
@@ -44,6 +45,8 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
     protected ArrayList<Product> listOfProduct;
     public ArrayList<Product> selectedProduct = new ArrayList<>();
     private static int defaultHeight = 162;
+    public Product removedProduct;
+    private Category selectedCategory;
 
 
     public ShowProductByCattegoryAdapter(Context context, ArrayList<Product> listOfProduct){
@@ -156,6 +159,12 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
 
     }
 
+    public void setSelectedCategory(Category category){
+        selectedCategory = category;
+    }
+    public Category getSelectedCategory(){
+        return selectedCategory;
+    }
     public void addProduct(Product product){
         listOfProduct.add(product);
     }
@@ -183,7 +192,13 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                removeProduct(listOfProduct.get(position));
+           //     Category cat = listOfProduct.get(position).getCattegory();
+           //     cat.removeProduct(listOfProduct.get(position));
+                ArrayList<Product> pr = selectedCategory.getAllProduct();
+                selectedCategory.removeProduct(listOfProduct.get(position));
+                //removedProduct = listOfProduct.get(position);
+               // removeProduct(listOfProduct.get(position));
+
                 notifyDataSetChanged();
                 dialog.cancel();
                 i[0] =1;

@@ -1,9 +1,13 @@
 package com.google.android.gms.samples.vision.barcodereader;
 
+import android.app.usage.UsageEvents;
+import android.content.Intent;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
 import com.google.android.gms.samples.vision.barcodereader.adapters.ShowProductByCattegoryAdapter;
@@ -26,6 +30,8 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
     private ShowProductByCattegoryAdapter showProductByCattegoryAdapter;
     private ItemTouchHelper itemTouchHelper;
     private Category category;
+    private android.support.v7.app.ActionBar actionBar;
+    ArrayList<Product> allProduct = new ArrayList<>();
 
     private final String SAVE_CATEGORY = "save_category_instant_state";
 
@@ -34,13 +40,18 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_product_by_cattegory);
+
         rVShowProduct = (RecyclerView)findViewById(R.id.rv_show_product);
         rVShowProduct.setHasFixedSize(true);
         rVLayoutManager = new LinearLayoutManager(this);
         rVShowProduct.setLayoutManager(rVLayoutManager);
+        actionBar = getSupportActionBar();
+
 
         if(savedInstanceState!=null&&savedInstanceState.containsKey(SAVE_CATEGORY)){
             category = (Category) savedInstanceState.getParcelable(SAVE_CATEGORY);
+            actionBar.setTitle(category.getName());
+           // showProductByCattegoryAdapter.setSelectedCategory(category);
             //the part of code below is for debug
             String cattname = category.getName();
             String catDesc = category.getDescription();
@@ -56,11 +67,15 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
             }
         }
         else{
-            giveMeSomeProducts products = new giveMeSomeProducts();
-            category = (RealCattegory) products.giveMeACattegory();
+            Intent intent = getIntent();
+            Bundle oldBundle = intent.getBundleExtra("name");
+            category = oldBundle.getParcelable("category_selected");
+            actionBar.setTitle(category.getName());
         }
 
         showProductByCattegoryAdapter = new ShowProductByCattegoryAdapter(this,category.getAllProduct());
+        showProductByCattegoryAdapter.setSelectedCategory(category);
+        // showProductByCattegoryAdapter.setSelectedCategory(category);
         rVShowProduct.setAdapter(showProductByCattegoryAdapter);
         ItemTouchHelperCallback myItemTouchHelper = new ItemTouchHelperCallback(showProductByCattegoryAdapter);
         itemTouchHelper = new ItemTouchHelper(myItemTouchHelper);

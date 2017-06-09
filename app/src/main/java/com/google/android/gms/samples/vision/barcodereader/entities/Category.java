@@ -76,4 +76,6 @@ public interface Category extends Parcelable{
      * @return
      */
     int getNumberOfEqualsProduct(String barcode);
+
+    void setAllProduct(ArrayList<Product> allProduct);
 }

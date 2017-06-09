@@ -23,7 +23,7 @@ public class RealProduct implements Product {
         this.barcode = barcode;
         this.name = name;
         this.cattegory = cattegory;
-        allPosition.add(cattegory.getPosition());
+//        allPosition.add(cattegory.getPosition());
         //cattegory.addNewProduct(this);
     }
     //for the beginning, a constructor without cattegory
@@ -46,11 +46,34 @@ public class RealProduct implements Product {
     };
 
     public RealProduct(Parcel source) {
-        this(source.readString(),source.readString(), (Category) source.readParcelable(RealCattegory.class.getClassLoader()));
-        for(int cycle = 0;cycle<source.dataSize();cycle++){
-            AttributesInPlus attribute = source.readParcelable(AttributesInPlus.class.getClassLoader());
-            attributesInPlus.add(attribute);
-        }
+        //this(source.readString(),source.readString(), (Category) source.readParcelable(RealCattegory.class.getClassLoader()));
+        this(source.readString(),source.readString());
+        this.setDescription(source.readString());
+        this.setImageURL(source.readString());
+        this.setPrice(source.readFloat());
+        String posName = source.readString();
+        Position position = new RealPosition(posName);
+        this.setPosition(position);
+        source.readList(attributesInPlus,getClass().getClassLoader());
+        //cattegory = source.readParcelable(RealCattegory.class.getClassLoader());
+        //ArrayList<Product> allProduct = new ArrayList<>();
+
+        //source.readList(allProduct,getClass().getClassLoader());
+        //cattegory.setAllProduct(allProduct);
+        //name = source.readString();
+        //price = source.readFloat();
+        //barcode = source.readString();
+        //imageURL = source.readString();
+     //   for(int cycle = 0;cycle<source.dataSize();cycle++){
+     //       AttributesInPlus attribute = source.readParcelable(AttributesInPlus.class.getClassLoader());
+      //      attributesInPlus.add(attribute);
+           // Position pos = source.readParcelable(RealPosition.class.getClassLoader());
+           // allPosition.add(pos);
+      //  }
+//        source.readList(attributesInPlus, getClass().getClassLoader());
+ //       source.readList(allPosition, getClass().getClassLoader());
+        //cattegory = source.readParcelable(getClass().getClassLoader());
+
 
     }
 
@@ -156,7 +179,6 @@ public class RealProduct implements Product {
         dest.writeString(description);
         dest.writeString(imageURL);
         dest.writeFloat(price);
-        dest.writeParcelable(cattegory,flags);
         //the position will be passed as a string not as an arraylist
         String position = "";
         for (Position currPos:allPosition) {
@@ -168,8 +190,12 @@ public class RealProduct implements Product {
             }
         }
         dest.writeString(position);
-        for (Attribute currentAttribute:attributesInPlus) {
-            dest.writeParcelable(currentAttribute,flags);
-        }
+       // for (Attribute currentAttribute:attributesInPlus) {
+       //     dest.writeParcelable(currentAttribute,flags);
+       // }
+        dest.writeList(attributesInPlus);
+        //dest.writeParcelable(cattegory,flags);
+        //dest.writeList(cattegory.getAllProduct());
+
     }
 }

@@ -14,5 +14,9 @@
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_save_black_24dp.png",
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_save_black_24dp.png"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_search_black_24dp.png",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_search_black_24dp.png"
     }
 ]

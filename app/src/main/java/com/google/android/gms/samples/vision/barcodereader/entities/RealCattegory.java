@@ -23,7 +23,7 @@ public class RealCattegory implements Category {
 
     public RealCattegory(String name){
         this.name = name;
-        this.position = new RealPosition("");
+        //this.position = new RealPosition("");
     }
 
     public static final Creator<RealCattegory> CREATOR = new Creator<RealCattegory>() {
@@ -39,12 +39,23 @@ public class RealCattegory implements Category {
         }
     };
 
+    // We just need to read back each
+    // field in the order that it was
+    // written to the parcel
     public RealCattegory(Parcel source) {
         this(source.readString());
-        for(int cycle = 0;cycle < source.dataSize();cycle++){
-            RealProduct realProduct = source.readParcelable(RealProduct.class.getClassLoader());
-            allProduct.add(realProduct);
-        }
+        this.setDescription(source.readString());
+        String posName = source.readString();
+        position = new RealPosition(posName);
+        this.setPosition(position);
+        //position = source.readParcelable(getClass().getClassLoader());
+        source.readList(allProduct, getClass().getClassLoader());
+
+        //for(int cycle = 0;cycle < source.dataSize();cycle++){
+        //    Product realProduct = source.readParcelable(RealProduct.class.getClassLoader());
+
+         //   allProduct.add(realProduct);
+       // }
     }
 
 
@@ -90,6 +101,12 @@ public class RealCattegory implements Category {
     }
 
     public void addNewProduct(Product product) {
+
+        if(getPosition()!=null) {
+            product.setPosition(getPosition());
+        }
+       // product.setCattegory(this);
+
         allProduct.add(product);
     }
 
@@ -109,6 +126,11 @@ public class RealCattegory implements Category {
     }
 
     @Override
+    public void setAllProduct(ArrayList<Product> allProduct) {
+        this.allProduct = allProduct;
+    }
+
+    @Override
     public int describeContents() {
         return 0;
     }
@@ -118,8 +140,9 @@ public class RealCattegory implements Category {
         dest.writeString(name);
         dest.writeString(description);
         dest.writeString(position.getName());
-        for (Product currentProduct:allProduct) {
-            dest.writeParcelable(currentProduct,flags);
-        }
+     //   for (Product currentProduct:allProduct) {
+     //       dest.writeParcelable(currentProduct,flags);
+      //  }
+        dest.writeList(allProduct);
     }
 }

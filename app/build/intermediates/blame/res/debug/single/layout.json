@@ -156,6 +156,10 @@
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout/show_category_item.xml"
     },
     {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/switch_item.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/res/layout/switch_item.xml"
+    },
+    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/layout/notification_template_part_time.xml"
     },
