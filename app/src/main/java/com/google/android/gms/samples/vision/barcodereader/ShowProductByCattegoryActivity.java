@@ -3,12 +3,15 @@ package com.google.android.gms.samples.vision.barcodereader;
 import android.app.usage.UsageEvents;
 import android.content.Intent;
 import android.provider.ContactsContract;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
+import android.view.MenuItem;
 
 import com.google.android.gms.samples.vision.barcodereader.adapters.ShowProductByCattegoryAdapter;
 import com.google.android.gms.samples.vision.barcodereader.adapters.helpers.ItemTouchHelperCallback;
@@ -23,6 +26,8 @@ import com.google.android.gms.samples.vision.barcodereader.entities.RealProduct;
 
 import java.util.ArrayList;
 
+import static android.support.design.widget.NavigationView.*;
+
 public class ShowProductByCattegoryActivity extends AppCompatActivity {
 
     private RecyclerView rVShowProduct;
@@ -36,10 +41,12 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
     private final String SAVE_CATEGORY = "save_category_instant_state";
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_product_by_cattegory);
+
 
         rVShowProduct = (RecyclerView)findViewById(R.id.rv_show_product);
         rVShowProduct.setHasFixedSize(true);

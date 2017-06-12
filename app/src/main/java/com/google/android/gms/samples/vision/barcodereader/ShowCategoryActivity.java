@@ -5,7 +5,10 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Parcelable;
 import android.os.PersistableBundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -47,12 +50,33 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
     FloatingActionButton fab;
     Dialog dialog;
     Dialog dialogCreate;
+    BottomNavigationView navigation;
+
 
     private static final String SAVE_CATEGORIES = "categories_to_save";
     private static final String CATEGORY_SELECTED = "categories_selected";
     private static final String VIEW_SELECTED = "view_selected";
 
 
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.all_category:
+                    Toast toast = Toast.makeText(getApplicationContext(),"all_category",Toast.LENGTH_SHORT);
+                    toast.show();
+                    return true;
+                case R.id.new_product:
+                    Intent intent = new Intent(getApplicationContext(),BarcodeCaptureActivity.class);
+                    startActivity(intent);
+                    return true;
+            }
+            return false;
+        }
+
+    };
 
 
     @Override
@@ -60,7 +84,11 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_category);
 
-        setContentView(R.layout.activity_show_category);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        navigation.setSelectedItemId(R.id.all_category);
+
+
         rVShowCategory = (RecyclerView)findViewById(R.id.cat_recycler_view);
         rVShowCategory.setHasFixedSize(true);
         rVLayoutManager = new LinearLayoutManager(this);

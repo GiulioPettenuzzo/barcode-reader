@@ -1,42 +1,46 @@
 [
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_tint_default.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_tint_default.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_tint_switch_track.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_tint_edittext.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_color_highlight_material.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_tint_spinner.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/28c6f8b306f9f47245766a6fa103eac05034a977/output/res/color-v23/design_tint_password_toggle.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/b565af07e84abc7465fbc4ca8444087defc8c38b/output/res/color-v23/design_tint_password_toggle.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_tint_btn_checkable.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/1022722df4d909baa661a6ee76de6a8b59bc8712/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/color-v23/abc_tint_switch_thumb.xml"
     }
 ]

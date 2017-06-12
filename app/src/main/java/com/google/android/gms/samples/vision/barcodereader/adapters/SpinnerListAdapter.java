@@ -164,8 +164,7 @@ public class SpinnerListAdapter extends ArrayAdapter<Category> implements Adapte
             saveButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if(categoryPosition.getText().toString().compareTo(context.getResources().getString(R.string.insert_category_position))!=0
-                            ||categoryPosition.getText().length()>0){
+                    if(categoryPosition.getText().toString().compareTo(context.getResources().getString(R.string.insert_category_position))!=0){
                         catPos[0] = categoryPosition.getText().toString();
                     }
                     else{
@@ -198,7 +197,13 @@ public class SpinnerListAdapter extends ArrayAdapter<Category> implements Adapte
                         allCategory.remove(forRecognize);
                         allCategory.add(selectedCategory);
                         allCategory.add(forRecognize);
-                        textViewForCategoryPosition.setText(selectedCategory.getPosition().getName());
+                        if(selectedCategory.getPosition()!=null) {
+                            textViewForCategoryPosition.setText(selectedCategory.getPosition().getName());
+                        }
+                        else{
+                            textViewForCategoryPosition.setText("");
+                            selectedCategory.setPosition(null);
+                        }
                         setSelectedCategory(selectedCategory);
                         notifyDataSetChanged();
                         Toast toast = Toast.makeText(context,"category insert succesfull",Toast.LENGTH_SHORT);
@@ -213,9 +218,13 @@ public class SpinnerListAdapter extends ArrayAdapter<Category> implements Adapte
 
         }
         else{
-            setSelectedCategory(allCategory.get(position));
-            textViewForCategoryPosition.setText(selectedCategory.getPosition().getName());
-
+                if(allCategory.get(position).getPosition()!=null) {
+                    setSelectedCategory(allCategory.get(position));
+                    textViewForCategoryPosition.setText(selectedCategory.getPosition().getName());
+                }
+                else {
+                    textViewForCategoryPosition.setText("");
+                }
         }
     }
 

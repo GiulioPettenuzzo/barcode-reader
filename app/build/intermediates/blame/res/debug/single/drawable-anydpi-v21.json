@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_notifications_black_24dp.xml"
+    },
+    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_check_green_24dp.xml",
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_check_green_24dp.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/b565af07e84abc7465fbc4ca8444087defc8c38b/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_search_black_24dp.xml",
@@ -12,11 +20,23 @@
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_chevron_right_black_24dp.xml"
     },
     {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_home_black_24dp.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home_black_24dp.xml"
+    },
+    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_chevron_left_black_24dp.xml",
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_chevron_left_black_24dp.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_save_black_24dp.xml",
         "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_save_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/b565af07e84abc7465fbc4ca8444087defc8c38b/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_dashboard_black_24dp.xml",
+        "source": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_dashboard_black_24dp.xml"
     }
 ]

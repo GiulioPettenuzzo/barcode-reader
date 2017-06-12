@@ -135,8 +135,8 @@ public class CameraSourcePreview extends ViewGroup {
         if (mCameraSource != null) {
             Size size = mCameraSource.getPreviewSize();
             if (size != null) {
-                width = size.getWidth();
-                height = size.getHeight();
+                width = size.getWidth()-370; //la adatto al mio schermo
+                height = size.getHeight()-70; //la adatto al mio schermo
             }
         }
 
@@ -186,4 +186,5 @@ public class CameraSourcePreview extends ViewGroup {
         Log.d(TAG, "isPortraitMode returning false by default");
         return false;
     }
+
 }

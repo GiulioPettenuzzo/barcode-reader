@@ -344,18 +344,19 @@ public class VolleyActivity extends AppCompatActivity {
 
 
 
-/**
+
  // THE PART OF THE CODE BELOW IS USED FOR SET THE ACTIVITY WITH THE BARCODE READER
          Intent intent = getIntent();
          Barcode barcode = intent.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
 
         //recive the intent from BarcodeCaptureActivity who sent the barcode number
-        mTextView.setText(barcode.displayValue);
+       // barcodeView.setText(barcode.displayValue);
 
         final String url = initialYahooURL + barcode.displayValue + finalYahooURL;
-*/
-        String url ="https://it.images.search.yahoo.com/search/images;_ylt=A9mSs3TQLxBZDrgATj0bDQx.;_ylu=X3oDMTB0ZTgxN3Q0BGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=8001435500013&fr=yfp-t-909&fr2=piv-web";
-        stringBarcode = "8001435500013";
+
+        //String url ="https://it.images.search.yahoo.com/search/images;_ylt=A9mSs3TQLxBZDrgATj0bDQx.;_ylu=X3oDMTB0ZTgxN3Q0BGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=8001435500013&fr=yfp-t-909&fr2=piv-web";
+        //stringBarcode = "8001435500013";
+        stringBarcode = barcode.displayValue;
         barcodeView.setText(stringBarcode);
 
 
@@ -379,7 +380,7 @@ public class VolleyActivity extends AppCompatActivity {
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                barcodeView.setText("That didn't work!");
+                barcodeView.setText("Internet connection is missing!");
                 imageUrlUnpacker.setResponce("That didn't work!");
             }
         });//
@@ -503,7 +504,7 @@ public class VolleyActivity extends AppCompatActivity {
                         finalProduct = new RealProduct(stringBarcode,name);
                     }
                     else {
-                        finalProduct = new RealProduct(stringBarcode, name, category);
+                        finalProduct = new RealProduct(stringBarcode, name);
                         if(description!=null){
                             finalProduct.setDescription(description);
                         }
@@ -519,7 +520,12 @@ public class VolleyActivity extends AppCompatActivity {
                         if(attributeInPlas.isEmpty()==false) {
                             finalProduct.setAllAttribute(attributeInPlas);
                         }
+                        if(category!=null){
+                            finalProduct.setCattegory(category);
+                        }
                     }
+                    /**
+                     * this is the method to retcive the informations from the product created
                     Log.i("product inserted",finalProduct.getName() + String.valueOf(finalProduct.getPrice()) + finalProduct.getCattegory().getName() +finalProduct.getBarcode()
                     + finalProduct.getDescription() + finalProduct.getImageURL());
                     for (Attribute currAtt:finalProduct.getNewAttributes()) {
@@ -528,7 +534,10 @@ public class VolleyActivity extends AppCompatActivity {
                     for (Position currPos:finalProduct.getPosition()) {
                         Log.i("attribute",currPos.getName());
                     }
-                    //TODO inviare l'intent
+                     */
+                    //TODO connettersi al database per salvare il prodotto creatoz
+                    Intent intent = new Intent(getApplicationContext(),ShowCategoryActivity.class);
+                    startActivity(intent);
                 }
 
             }
