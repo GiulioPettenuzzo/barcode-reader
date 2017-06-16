@@ -65,8 +65,6 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.all_category:
-                    Toast toast = Toast.makeText(getApplicationContext(),"all_category",Toast.LENGTH_SHORT);
-                    toast.show();
                     return true;
                 case R.id.new_product:
                     Intent intent = new Intent(getApplicationContext(),BarcodeCaptureActivity.class);

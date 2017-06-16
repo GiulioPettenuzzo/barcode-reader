@@ -374,14 +374,16 @@ public class VolleyActivity extends AppCompatActivity {
                             maxNumImage = imageUrlUnpacker.countImageOnUrl();
                         }
                         else{
-                            //TODO: open a dialog in order to ask at user if he want to use a camera to take a picture about the element
+                            Toast toast = Toast.makeText(getApplicationContext(),"Sorry, No image where found",Toast.LENGTH_SHORT);
+                            toast.show();
                         }
                     }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                barcodeView.setText("Internet connection is missing!");
-                imageUrlUnpacker.setResponce("That didn't work!");
+                imageUrlUnpacker.setResponce("Internet connection is missing!");
+                Toast toast = Toast.makeText(getApplicationContext(),"Internet connection is missing!",Toast.LENGTH_SHORT);
+                toast.show();
             }
         });//
         // Add the request to the RequestQueue.

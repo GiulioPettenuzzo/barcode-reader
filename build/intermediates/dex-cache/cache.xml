@@ -255,6 +255,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/db5fe05adbe7c65341ee8592a1f8c0ae9af70e29/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bc9d94407bc4d5f46b1695db9f99b38e1b0a8299/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/giuliopettenuzzo/.android/build-cache/cf5f8ea7f425603e9a769d5900fb9f502d083749/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -291,6 +300,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66faff846f89e35eed61105e650fb165094c8e83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/36d3fa05040a693c202d7a490ddbe0dcb189b6c8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0d7af4c52ba92926d70fbbac0b84dd0844452719/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/giuliopettenuzzo/.android/build-cache/48f63d151586e341c964d075cd1206e97d9be7a3/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -306,6 +333,15 @@
         revision="24.0.1"
         sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
         <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/android-vision/visionSamples/barcode-reader/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_7ca2dcf811d2bae2b200246cb49c5967eda0a3dd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/giuliopettenuzzo/.android/build-cache/0b93cbf5093ccd5e4533de8450676c3917cb33b4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_07bb2ca38e2213973c31b772fa567da25e172fd7/classes.dex" />
     </item>
     <item
         is-multidex="true"

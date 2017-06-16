@@ -40,7 +40,7 @@ public class ImageUrlUnpacker implements Unpacker {
     }
 
     /**
-     * this class is able to make a parcing of the response to find out the first url witch contains the
+     * this class is able to make a pircing of the response to find out the first url witch contains the
      * first image in yahoo image
      * the url I'm searching for is contained into a string like this:
      * ...<\>img src='...IMAGE URL...' ...
@@ -76,6 +76,9 @@ public class ImageUrlUnpacker implements Unpacker {
                         while (!restPartOfURL.startsWith("/>")) {
                             imgURL = imgURL + "%20" + restPartOfURL;
                             restPartOfURL = token.nextToken();
+                            if(!token.hasMoreTokens()){
+                                return "error";
+                            }
                         }
                         char[] finalCharArray = imgURL.toCharArray();
                         finalCharArray = remuveLastCharacterOfURL(finalCharArray);

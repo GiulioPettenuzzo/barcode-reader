@@ -29,19 +29,19 @@
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/res/drawable/common_plus_signin_btn_text_dark.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/res/drawable/common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
@@ -73,7 +73,7 @@
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/res/drawable/common_plus_signin_btn_text_light.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
@@ -125,7 +125,7 @@
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
@@ -141,7 +141,7 @@
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
@@ -169,7 +169,7 @@
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
@@ -205,6 +205,6 @@
     },
     {
         "merged": "/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/res/drawable/common_plus_signin_btn_icon_light.xml"
+        "source": "/Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/res/drawable/common_plus_signin_btn_icon_light.xml"
     }
 ]

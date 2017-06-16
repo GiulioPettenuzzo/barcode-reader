@@ -30,10 +30,10 @@ ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/
 application
 ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:11:5-50:19
 MERGED from [com.android.volley:volley:unspecified] /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/volley/build/intermediates/bundles/default/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/4d1750dd4c3e6aba4ab094452f03909f28cdc0a4/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/47e6704fe200b0295892bddb9a2792418bd7eea2/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/bfff890f1179d285b8e70e1d6593b460d5b58a37/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/36d3fa05040a693c202d7a490ddbe0dcb189b6c8/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/0b93cbf5093ccd5e4533de8450676c3917cb33b4/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/db5fe05adbe7c65341ee8592a1f8c0ae9af70e29/output/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:design:25.3.1] /Users/giuliopettenuzzo/.android/build-cache/b565af07e84abc7465fbc4ca8444087defc8c38b/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/giuliopettenuzzo/.android/build-cache/cf5f8ea7f425603e9a769d5900fb9f502d083749/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/giuliopettenuzzo/.android/build-cache/4c8542b9233a3658c34ffcda272180b15a24596d/output/AndroidManifest.xml:29:5-20
@@ -62,7 +62,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/giul
 		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:18:9-47
 meta-data#com.google.android.gms.version
 ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:19:9-21:69
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/bfff890f1179d285b8e70e1d6593b460d5b58a37/output/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/db5fe05adbe7c65341ee8592a1f8c0ae9af70e29/output/AndroidManifest.xml:21:9-23:69
 	android:value
 		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:21:13-66
 	android:name
@@ -116,10 +116,10 @@ ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/
 uses-sdk
 INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:unspecified] /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/volley/build/intermediates/bundles/default/AndroidManifest.xml:7:5-43
-MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/4d1750dd4c3e6aba4ab094452f03909f28cdc0a4/output/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/47e6704fe200b0295892bddb9a2792418bd7eea2/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/bfff890f1179d285b8e70e1d6593b460d5b58a37/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/36d3fa05040a693c202d7a490ddbe0dcb189b6c8/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/0b93cbf5093ccd5e4533de8450676c3917cb33b4/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/db5fe05adbe7c65341ee8592a1f8c0ae9af70e29/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:25.3.1] /Users/giuliopettenuzzo/.android/build-cache/b565af07e84abc7465fbc4ca8444087defc8c38b/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/giuliopettenuzzo/.android/build-cache/22ee40ae4be9c1e9d19c1965c13229246ee02e96/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/giuliopettenuzzo/.android/build-cache/cf5f8ea7f425603e9a769d5900fb9f502d083749/output/AndroidManifest.xml:20:5-44
@@ -142,13 +142,13 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/giul
 		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/09a085750c312867de9d6ee930c30792002fad67/output/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/AndroidManifest.xml:20:19-85
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] /Users/giuliopettenuzzo/.android/build-cache/b565af07e84abc7465fbc4ca8444087defc8c38b/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/giuliopettenuzzo/.android/build-cache/22ee40ae4be9c1e9d19c1965c13229246ee02e96/output/AndroidManifest.xml:22:5-24:34
