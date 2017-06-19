@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:3:5-66
 		INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml
@@ -28,7 +28,7 @@ ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/
 	android:name
 		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:9:22-64
 application
-ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:11:5-50:19
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:11:5-55:19
 MERGED from [com.android.volley:volley:unspecified] /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/volley/build/intermediates/bundles/default/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/36d3fa05040a693c202d7a490ddbe0dcb189b6c8/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/giuliopettenuzzo/.android/build-cache/f21e945529396cdd271b7b3ca3f7cfcb39482965/output/AndroidManifest.xml:19:5-23:19
@@ -100,19 +100,25 @@ ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/
 	android:name
 		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:42:19-65
 activity#com.google.android.gms.samples.vision.barcodereader.ShowCategoryActivity
-ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:43:9-49:20
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:43:9-45:20
 	android:name
 		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:43:19-55
+activity#com.google.android.gms.samples.vision.barcodereader.SplashActivity
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:46:9-54:20
+	android:theme
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:48:13-47
+	android:name
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:47:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:44:13-48:29
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:49:13-53:29
 action#android.intent.action.MAIN
-ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:45:17-69
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:45:25-66
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:47:17-77
+ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:47:27-74
+		ADDED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml:52:27-74
 uses-sdk
 INJECTED from /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:unspecified] /Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/volley/build/intermediates/bundles/default/AndroidManifest.xml:7:5-43

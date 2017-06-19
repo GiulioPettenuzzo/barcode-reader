@@ -5,7 +5,7 @@ import com.google.android.gms.samples.vision.barcodereader.urlManagement.Unpacke
 import java.util.StringTokenizer;
 
 /**
- * this class provide a parcing of an html responce in order to estract the whole image url
+ * this class provide a pircing of an html responce in order to estract the whole image url
  * in the page
  * Created by giuliopettenuzzo on 09/05/17.
  */

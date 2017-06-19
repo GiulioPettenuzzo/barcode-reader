@@ -6,6 +6,7 @@ import com.google.android.gms.samples.vision.barcodereader.entities.Attribute;
 
 /**
  * Created by giuliopettenuzzo on 16/05/17.
+ * This class is created in order to help the insert new attributes action's
  */
 
 public class AttributesInPlus implements Attribute {

@@ -36,11 +36,13 @@
 
 
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:label="Read Barcode" />
         <activity android:name=".ShowProductByCattegoryActivity"></activity>
         <activity android:name=".ShowCategoryActivity">
+
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

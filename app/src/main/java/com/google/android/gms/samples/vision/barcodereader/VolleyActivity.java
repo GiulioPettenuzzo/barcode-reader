@@ -537,7 +537,7 @@ public class VolleyActivity extends AppCompatActivity {
                         Log.i("attribute",currPos.getName());
                     }
                      */
-                    //TODO connettersi al database per salvare il prodotto creatoz
+                    //TODO connettersi al database per salvare il prodotto creato
                     Intent intent = new Intent(getApplicationContext(),ShowCategoryActivity.class);
                     startActivity(intent);
                 }

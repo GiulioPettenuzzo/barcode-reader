@@ -27,7 +27,11 @@ import com.google.android.gms.samples.vision.barcodereader.entities.RealProduct;
 import java.util.ArrayList;
 
 import static android.support.design.widget.NavigationView.*;
-
+/**
+ * This activity is created in order to show all the product present in a category inside a RecyclerView,
+ * the main point of this activity is the fact that an item expands, collapses when the user touch.
+ * An item can also be swipe in order to be delete
+ */
 public class ShowProductByCattegoryActivity extends AppCompatActivity {
 
     private RecyclerView rVShowProduct;
@@ -36,10 +40,10 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
     private ItemTouchHelper itemTouchHelper;
     private Category category;
     private android.support.v7.app.ActionBar actionBar;
-    ArrayList<Product> allProduct = new ArrayList<>();
 
     private final String SAVE_CATEGORY = "save_category_instant_state";
-
+    private static final String CATEGORY_SELECTED = "categories_selected";
+    private static final String BUNDLE_NAME = "categories_selected";
 
 
     @Override
@@ -58,8 +62,10 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
         if(savedInstanceState!=null&&savedInstanceState.containsKey(SAVE_CATEGORY)){
             category = (Category) savedInstanceState.getParcelable(SAVE_CATEGORY);
             actionBar.setTitle(category.getName());
-           // showProductByCattegoryAdapter.setSelectedCategory(category);
-            //the part of code below is for debug
+            /**
+            the part of code below is for debug in order to see if all the field of the category
+             has been sent well.
+            */
             String cattname = category.getName();
             String catDesc = category.getDescription();
             Position catPlace = category.getPosition();
@@ -75,14 +81,13 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
         }
         else{
             Intent intent = getIntent();
-            Bundle oldBundle = intent.getBundleExtra("name");
-            category = oldBundle.getParcelable("category_selected");
+            Bundle oldBundle = intent.getBundleExtra(BUNDLE_NAME);
+            category = oldBundle.getParcelable(CATEGORY_SELECTED);
             actionBar.setTitle(category.getName());
         }
 
         showProductByCattegoryAdapter = new ShowProductByCattegoryAdapter(this,category.getAllProduct());
         showProductByCattegoryAdapter.setSelectedCategory(category);
-        // showProductByCattegoryAdapter.setSelectedCategory(category);
         rVShowProduct.setAdapter(showProductByCattegoryAdapter);
         ItemTouchHelperCallback myItemTouchHelper = new ItemTouchHelperCallback(showProductByCattegoryAdapter);
         itemTouchHelper = new ItemTouchHelper(myItemTouchHelper);
@@ -96,6 +101,11 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
     }
 
+    /**
+     * this is the layout's way to delate an item
+     * when the item is long pressed the activity name and the floating action button will dissolve
+     * @return
+     */
     private class giveMeSomeProducts{
 
         private ArrayList<Product> allProduct;

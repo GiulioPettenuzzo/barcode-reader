@@ -36,6 +36,11 @@ import com.google.android.gms.samples.vision.barcodereader.entities.RealProduct;
 
 import java.util.ArrayList;
 
+/**
+ * this activity is created to show all the category in the application.
+ * The main point of this activity is the long press of the items that allows to delate or modify the elment
+ * from the buttons that appears in the menu.
+ */
 public class ShowCategoryActivity extends AppCompatActivity implements ShowCategoryAdapter.OnCategoryItemListener {
     private RecyclerView rVShowCategory;
     private RecyclerView.LayoutManager rVLayoutManager;
@@ -50,14 +55,16 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
     FloatingActionButton fab;
     Dialog dialog;
     Dialog dialogCreate;
-    BottomNavigationView navigation;
 
 
     private static final String SAVE_CATEGORIES = "categories_to_save";
     private static final String CATEGORY_SELECTED = "categories_selected";
-    private static final String VIEW_SELECTED = "view_selected";
+    private static final String BUNDLE_NAME = "categories_selected";
 
 
+
+
+    // the navigation bar of the application
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
@@ -106,7 +113,6 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
 
 
         dialog = new Dialog(getApplicationContext());
-        //actionBar.setTitle("ok");
 
         fab = (FloatingActionButton) findViewById(R.id.floatingActionButton);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -159,6 +165,8 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
             public boolean onMenuItemClick(MenuItem item) {
                 dialog = new Dialog(ShowCategoryActivity.this);
                 dialog.setContentView(R.layout.delete_product_dialog);
+                TextView textView = (TextView) dialog.findViewById(R.id.textViewx);
+                textView.setText(R.string.delete_category_dialog);
                 Button cancel = (Button) dialog.findViewById(R.id.button_ok);
                 Button dontCancel = (Button) dialog.findViewById(R.id.button_no);
                 final int[] i = {0};
@@ -212,7 +220,7 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
                 });
                 dialogNewCategory.setDialog();
                 TextView title = (TextView) dialogCreate.findViewById(R.id.create_category_title);
-                title.setText("Edit this Category");
+                title.setText(R.string.edit_category);
                 dialogCreate.show();
                 return true;
             }
@@ -220,6 +228,11 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
         return super.onCreateOptionsMenu(menu);
     }
 
+    /**
+     * this class is used for debug. I want to show some product in the list
+     * a next version of the application will use a database.
+     * @return
+     */
     public ArrayList<Category> giveMeSomeCategory(){
         ArrayList<Category> allCategory = new ArrayList<>();
         for(int i = 0;i<20;i++){
@@ -227,10 +240,6 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
             Position catPos = new RealPosition("scaffale");
 
             category.setPosition(catPos);
-            //Product product = new RealProduct("ciao","barcode");
-            //product.setImageURL("http://www.donnamoderna.com/var/ezflow_site/storage/images/media/images/adv/moretti/birra-moretti/66481223-1-ita-IT/Birra-Moretti.jpg");
-
-           // category.addNewProduct(product);
 
             for(int j = 0;j<i;j++){
                 String name = "prod " + j;
@@ -252,7 +261,7 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
 
 
     /**
-     * this is the layout's way to delate an item
+     * this is the layout's way to delete an item
      * when the item is long pressed the activity name and the floating action button will dissolve
      * @return
      */
@@ -270,21 +279,17 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
         return true;
     }
 
+    /**
+     * this send an intent to ShowProductByCategoryActivity
+     */
     @Override
     public void onCategoryClick() {
         if(showCategoryAdapter.itemSelected == null) {
-            Toast toast = Toast.makeText(this, "entra in questa cattegoria", Toast.LENGTH_SHORT);
-            toast.show();
             Intent intent = new Intent(this,ShowProductByCattegoryActivity.class);
-            //intent.putExtra("category_selected",showCategoryAdapter.categoryToGo);
-            //startActivity(intent);
             Bundle bundle = new Bundle();
-            bundle.putParcelable("category_selected",showCategoryAdapter.categoryToGo);
-            intent.putExtra("name",bundle);
+            bundle.putParcelable(CATEGORY_SELECTED,showCategoryAdapter.categoryToGo);
+            intent.putExtra(BUNDLE_NAME,bundle);
             startActivity(intent);
-
-           // intent.putParcelableArrayListExtra("all_product",showCategoryAdapter.categoryToGo.getAllProduct());
-           // startActivity(intent);
 
         }
         else{

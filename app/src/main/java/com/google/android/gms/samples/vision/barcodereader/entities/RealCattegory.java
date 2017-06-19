@@ -48,14 +48,7 @@ public class RealCattegory implements Category {
         String posName = source.readString();
         position = new RealPosition(posName);
         this.setPosition(position);
-        //position = source.readParcelable(getClass().getClassLoader());
         source.readList(allProduct, getClass().getClassLoader());
-
-        //for(int cycle = 0;cycle < source.dataSize();cycle++){
-        //    Product realProduct = source.readParcelable(RealProduct.class.getClassLoader());
-
-         //   allProduct.add(realProduct);
-       // }
     }
 
 
@@ -105,7 +98,6 @@ public class RealCattegory implements Category {
         if(getPosition()!=null) {
             product.setPosition(getPosition());
         }
-       // product.setCattegory(this);
 
         allProduct.add(product);
     }
@@ -140,9 +132,6 @@ public class RealCattegory implements Category {
         dest.writeString(name);
         dest.writeString(description);
         dest.writeString(position.getName());
-     //   for (Product currentProduct:allProduct) {
-     //       dest.writeParcelable(currentProduct,flags);
-      //  }
         dest.writeList(allProduct);
     }
 }

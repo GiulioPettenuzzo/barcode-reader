@@ -49,9 +49,6 @@ public class ShowCategoryAdapter extends RecyclerView.Adapter<ShowCategoryAdapte
         itemSelected = category;
         notifyDataSetChanged();
     }
-    public void setViewSelected(View view){
-        viewSelected = view;
-    }
     /**
      *
      * @param category
@@ -65,6 +62,15 @@ public class ShowCategoryAdapter extends RecyclerView.Adapter<ShowCategoryAdapte
         allCategory.add(category);
         notifyDataSetChanged();
     }
+
+    /**
+     * this method is useful when an item is modify.
+     * the modify process is working like this: the category selected is delete and a new category will create
+     * and take the place of the odl one.
+     * without this method when you modify an item, it will finish at the end of the recycler view.
+     * @param category1
+     * @param category2
+     */
     public void exchangeCategory(Category category1,Category category2){
         int index = allCategory.indexOf(category1);
         category2.setAllProduct(category1.getAllProduct());
@@ -90,6 +96,7 @@ public class ShowCategoryAdapter extends RecyclerView.Adapter<ShowCategoryAdapte
         final Category category = allCategory.get(position);
         holder.categoryNameTextView.setText(category.getName());
         holder.numberOfProductTextView.setText(String.valueOf(category.getNumberOfElements()));
+
         if(itemSelected != null && itemSelected != category) {
             holder.itemView.setOnLongClickListener(null);
         }

@@ -48,6 +48,10 @@
             android:label="Read Barcode" />
         <activity android:name="com.google.android.gms.samples.vision.barcodereader.ShowProductByCattegoryActivity" />
         <activity android:name="com.google.android.gms.samples.vision.barcodereader.ShowCategoryActivity" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.samples.vision.barcodereader.SplashActivity"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

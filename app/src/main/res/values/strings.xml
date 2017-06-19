@@ -27,5 +27,7 @@
     <string name="title_home">home</string>
     <string name="title_dashboard">dashboard</string>
     <string name="title_notification">notification</string>
+    <string name="delete_category_dialog">Are you sure to delate this Category?</string>
+    <string name="edit_category">Edit this Category?</string>
 
 </resources>

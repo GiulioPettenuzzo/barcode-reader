@@ -143,11 +143,12 @@ public class NewCategoryDialog extends DialogFragment {
                     if(catDesc[0]!=null){
                         selectedCategory.setDescription(catDesc[0]);
                     }
-                    // setSelectedCategory(selectedCategory);
-
 
                     Toast toast = Toast.makeText(context,"category insert succesfull",Toast.LENGTH_SHORT);
                     toast.show();
+                    /**
+                     * listener used to pass the value insert in the dialog to a specific activity.
+                     */
                     listener.onFinishEditDialog(selectedCategory);
                     dialog.dismiss();
                 }
