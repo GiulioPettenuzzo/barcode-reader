@@ -700,6 +700,7 @@
     <string name="barcode_header">Click "Read Barcode" to read a barcode</string>
     <string name="barcode_success">Barcode read successfully</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="category_insert_succesfully">category insert succesfully</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
@@ -721,7 +722,12 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="create_new_category">crea nuova cattegoria</string>
+    <string name="delete_category_dialog">Are you sure to delate this Category?</string>
     <string name="delete_dialog">Are you sure you want to delete this product?</string>
+    <string name="edit_category">Edit this Category?</string>
+    <string name="error">error</string>
+    <string name="image_not_found">Sorry, No image where found</string>
     <string name="insert_category_description">insert category description(optional)</string>
     <string name="insert_category_name">insert category name</string>
     <string name="insert_category_position">insert category position(optional)</string>
@@ -730,9 +736,12 @@
     <string name="insert_new_place">Insert New Place</string>
     <string name="insert_price">Insert Price (euro)</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="must_insert_cat_name">you must insert a category name</string>
+    <string name="must_insert_product_name">you must insert a product name!</string>
     <string name="new_attribute_name">insert new attribute\'s name</string>
     <string name="new_attribute_value">insert new attribute\'s value</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="no_internet_connection">Internet connection is missing!</string>
     <string name="ok">OK</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
@@ -743,6 +752,7 @@
     <string name="position_allert">first of all you must insert a positions name</string>
     <string name="read_barcode">Read Barcode</string>
     <string name="search_menu_title">Search</string>
+    <string name="show_cat_activity_title">All Category</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
     <string name="title_activity_show_product_by_cattegory">ShowProductByCattegory</string>
@@ -750,6 +760,7 @@
     <string name="title_home">home</string>
     <string name="title_notification">notification</string>
     <string name="use_flash">Use Flash</string>
+    <string name="volley_activity_title">Register New Product</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -759,7 +770,7 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

@@ -37,7 +37,7 @@ public class ShowProductByCattegoryActivity extends AppCompatActivity {
     private RecyclerView rVShowProduct;
     private RecyclerView.LayoutManager rVLayoutManager;
     private ShowProductByCattegoryAdapter showProductByCattegoryAdapter;
-    private ItemTouchHelper itemTouchHelper;
+    private ItemTouchHelper itemTouchHelper; //to allowed the swipe
     private Category category;
     private android.support.v7.app.ActionBar actionBar;
 

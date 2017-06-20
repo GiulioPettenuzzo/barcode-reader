@@ -43,9 +43,6 @@
             android:label="Read Barcode"
             android:screenOrientation="portrait" >
         </activity>
-        <activity
-            android:name="com.google.android.gms.samples.vision.barcodereader.MainActivity"
-            android:label="Read Barcode" />
         <activity android:name="com.google.android.gms.samples.vision.barcodereader.ShowProductByCattegoryActivity" />
         <activity android:name="com.google.android.gms.samples.vision.barcodereader.ShowCategoryActivity" >
         </activity>

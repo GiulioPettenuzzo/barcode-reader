@@ -44,9 +44,9 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
     private static Context context;
     protected ArrayList<Product> listOfProduct;
     public ArrayList<Product> selectedProduct = new ArrayList<>();
-    private static int defaultHeight = 162;
-    public Product removedProduct;
+    private static int defaultHeight = 162; //the size of the view that is not expanded
     private Category selectedCategory;
+    private final static int DURATION = 300;
 
 
     public ShowProductByCattegoryAdapter(Context context, ArrayList<Product> listOfProduct){
@@ -67,10 +67,6 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
     public void onBindViewHolder(ViewHolder holder, int position) {
         Product product = listOfProduct.get(position);
         holder.productName.setText(product.getName());
-       // Category category = product.getCattegory();
-       // int num = category.getNumberOfEqualsProduct(product.getBarcode());
-        //String numberOfProduct = String.valueOf(num);
-       // holder.productNumber.setText(numberOfProduct);
         ArrayList<Position> pos = product.getPosition();
         String positionInString = "";
         for (Position currentpos:pos) {
@@ -150,26 +146,8 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
 
     }
 
-    public void onViewRecycled(ViewHolder holder) {
-        super.onViewRecycled(holder);
-
-        //when you scroll up the list, the listener of the new item is disactivate
-        //so they will set in the right settings
-        //holder.itemView.setOnClickListener(null);
-
-    }
-
     public void setSelectedCategory(Category category){
         selectedCategory = category;
-    }
-    public Category getSelectedCategory(){
-        return selectedCategory;
-    }
-    public void addProduct(Product product){
-        listOfProduct.add(product);
-    }
-    public void removeProduct(Product product){
-        listOfProduct.remove(product);
     }
 
     @Override
@@ -181,6 +159,10 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
         return listOfProduct;
     }
 
+    /**
+     * when the item is swipe a dialog appear in order to delete the product
+     * @param position the position of swiped element in the list
+     */
     @Override
     public void onItemSwiped(final int position) {
         final Dialog dialog = new Dialog(context);
@@ -192,12 +174,8 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-           //     Category cat = listOfProduct.get(position).getCattegory();
-           //     cat.removeProduct(listOfProduct.get(position));
                 ArrayList<Product> pr = selectedCategory.getAllProduct();
                 selectedCategory.removeProduct(listOfProduct.get(position));
-                //removedProduct = listOfProduct.get(position);
-               // removeProduct(listOfProduct.get(position));
 
                 notifyDataSetChanged();
                 dialog.cancel();
@@ -285,6 +263,10 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
             }
         }
 
+        /**
+         * when the view is selected it will be expanded or collapse
+         * @param view
+         */
         @TargetApi(Build.VERSION_CODES.LOLLIPOP)
         @RequiresApi(api = Build.VERSION_CODES.HONEYCOMB)
         @Override
@@ -306,7 +288,6 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
                 isViewExpanded = true;
                 valueAnimator = ValueAnimator.ofInt(originalHeight, originalHeight + (int) (originalHeight * 2.0)); // These values in this method can be changed to expand however much you like
                 view.setElevation(50);
-                //originalHeight = originalHeight*3;
 
                 Product product = ShowProductByCattegoryAdapter.this.listOfProduct.get(super.getAdapterPosition());
                 ShowProductByCattegoryAdapter.this.selectedProduct.add(product);
@@ -325,7 +306,7 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
                     valueAnimator = ValueAnimator.ofInt(originalHeight + (int) (originalHeight * 2.0), originalHeight);
                 }
                 Animation a = new AlphaAnimation(1.00f, 0.00f); // Fade out
-                a.setDuration(300);
+                a.setDuration(DURATION);
                 a.setAnimationListener(new Animation.AnimationListener() {
                     @Override
                     public void onAnimationStart(Animation animation) {
@@ -356,7 +337,7 @@ public class ShowProductByCattegoryAdapter extends RecyclerView.Adapter<ShowProd
                 otherAttributes.startAnimation(a);
                 view.setElevation(14);
             }
-            valueAnimator.setDuration(300);
+            valueAnimator.setDuration(DURATION);
             valueAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
             valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                 @Override

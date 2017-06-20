@@ -20,7 +20,7 @@ import com.google.android.gms.samples.vision.barcodereader.entities.RealPosition
 
 /**
  * Created by giuliopettenuzzo on 08/06/17.
- * in order to use this dialog more than one time
+ * in order to use this dialog more than one time for creating a category
  */
 @RequiresApi(api = Build.VERSION_CODES.HONEYCOMB)
 @SuppressLint("ValidFragment")
@@ -115,7 +115,8 @@ public class NewCategoryDialog extends DialogFragment {
             public void onClick(View v) {
                 if(categoryPosition.getText().toString().compareTo(context.getResources().getString(R.string.insert_category_position))!=0
                         ||categoryPosition.getText().length()>0){
-                    catPos[0] = categoryPosition.getText().toString();
+                    if(categoryPosition.getText().toString().compareTo(context.getResources().getString(R.string.insert_category_position))!=0)
+                        catPos[0] = categoryPosition.getText().toString();
                 }
                 else{
                     catPos[0] = null;
@@ -129,7 +130,7 @@ public class NewCategoryDialog extends DialogFragment {
                 }
                 if(categoryName.getText().toString().compareTo(context.getResources().getString(R.string.insert_category_name))==0
                         ||categoryName.getText().length()==0){
-                    Toast toast = Toast.makeText(context,"you must insert a category name",Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(context,context.getResources().getString(R.string.must_insert_cat_name),Toast.LENGTH_SHORT);
                     toast.show();
                 }
                 else{
@@ -144,7 +145,7 @@ public class NewCategoryDialog extends DialogFragment {
                         selectedCategory.setDescription(catDesc[0]);
                     }
 
-                    Toast toast = Toast.makeText(context,"category insert succesfull",Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(context,context.getResources().getString(R.string.category_insert_succesfully),Toast.LENGTH_SHORT);
                     toast.show();
                     /**
                      * listener used to pass the value insert in the dialog to a specific activity.

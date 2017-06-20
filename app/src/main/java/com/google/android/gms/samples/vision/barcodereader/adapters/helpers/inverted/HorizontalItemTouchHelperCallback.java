@@ -8,6 +8,7 @@ import com.google.android.gms.samples.vision.barcodereader.adapters.helpers.Item
 
 /**
  * Created by giuliopettenuzzo on 20/05/17.
+ * in order to aloud the swipe when the screen is landscape
  */
 
 public class HorizontalItemTouchHelperCallback extends ItemTouchHelper.Callback

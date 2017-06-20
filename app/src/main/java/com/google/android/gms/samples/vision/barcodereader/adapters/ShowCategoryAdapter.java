@@ -68,8 +68,8 @@ public class ShowCategoryAdapter extends RecyclerView.Adapter<ShowCategoryAdapte
      * the modify process is working like this: the category selected is delete and a new category will create
      * and take the place of the odl one.
      * without this method when you modify an item, it will finish at the end of the recycler view.
-     * @param category1
-     * @param category2
+     * @param category1 the old category
+     * @param category2 the new category
      */
     public void exchangeCategory(Category category1,Category category2){
         int index = allCategory.indexOf(category1);
@@ -100,7 +100,7 @@ public class ShowCategoryAdapter extends RecyclerView.Adapter<ShowCategoryAdapte
         if(itemSelected != null && itemSelected != category) {
             holder.itemView.setOnLongClickListener(null);
         }
-
+        //still select when the view scroll
         else if(itemSelected == null || itemSelected == category) {
             holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
@@ -111,14 +111,12 @@ public class ShowCategoryAdapter extends RecyclerView.Adapter<ShowCategoryAdapte
                     else
                         isLongPressed = false;
                     viewSelected = v;
-                    Toast toast = Toast.makeText(context,category.getName(),Toast.LENGTH_SHORT);
-                    toast.show();
                     notifyDataSetChanged();
                     return onCategoryItemListener.onCategoryLongClick();
                 }
             });
         }
-
+        //to remember the instance of long pressed
         if(itemSelected==category){
             holder.itemView.setBackgroundColor(context.getResources().getColor(android.R.color.darker_gray));
         }

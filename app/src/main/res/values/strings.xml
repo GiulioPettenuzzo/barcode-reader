@@ -29,5 +29,13 @@
     <string name="title_notification">notification</string>
     <string name="delete_category_dialog">Are you sure to delate this Category?</string>
     <string name="edit_category">Edit this Category?</string>
-
+    <string name="create_new_category">crea nuova cattegoria</string>
+    <string name="image_not_found">Sorry, No image where found</string>
+    <string name="no_internet_connection">Internet connection is missing!</string>
+    <string name="error">error</string>
+    <string name="must_insert_product_name">you must insert a product name!</string>
+    <string name="category_insert_succesfully">category insert succesfully</string>
+    <string name="must_insert_cat_name">you must insert a category name</string>
+    <string name="volley_activity_title">Register New Product</string>
+    <string name="show_cat_activity_title">All Category</string>
 </resources>

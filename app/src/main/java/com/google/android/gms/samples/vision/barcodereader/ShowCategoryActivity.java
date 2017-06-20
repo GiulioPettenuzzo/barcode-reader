@@ -107,6 +107,7 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
         }
 
         actionBar = getSupportActionBar();
+        actionBar.setTitle(R.string.show_cat_activity_title);
         showCategoryAdapter = new ShowCategoryAdapter(this,allCategory,this);
 
 
@@ -169,7 +170,6 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
                 textView.setText(R.string.delete_category_dialog);
                 Button cancel = (Button) dialog.findViewById(R.id.button_ok);
                 Button dontCancel = (Button) dialog.findViewById(R.id.button_no);
-                final int[] i = {0};
 
                 cancel.setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -177,19 +177,17 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
                         showCategoryAdapter.removeCategory(showCategoryAdapter.itemSelected);
                         showCategoryAdapter.itemSelected = null;
                         showCategoryAdapter.isLongPressed = false;
-                        actionBar.setTitle(R.string.title_activity_main);
+                        actionBar.setTitle(R.string.show_cat_activity_title);
                         fab.setVisibility(View.VISIBLE);
                         deleteCategoryMenuItem.setVisible(false);
                         editCategoryMenuItem.setVisible(false);
                         dialog.cancel();
-                        i[0] =1;
                     }
                 });
                 dontCancel.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         dialog.cancel();
-                        i[0] = 1;
                     }
                 });
                 dialog.setCanceledOnTouchOutside(false);
@@ -210,7 +208,7 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
                                 showCategoryAdapter.exchangeCategory(showCategoryAdapter.itemSelected,dialogNewCategory.getSelectedCategory());
                                 showCategoryAdapter.itemSelected = null;
                                 showCategoryAdapter.isLongPressed = false;
-                                actionBar.setTitle(R.string.title_activity_main);
+                                actionBar.setTitle(R.string.show_cat_activity_title);
                                 fab.setVisibility(View.VISIBLE);
                                 deleteCategoryMenuItem.setVisible(false);
                                 editCategoryMenuItem.setVisible(false);
@@ -295,7 +293,7 @@ public class ShowCategoryActivity extends AppCompatActivity implements ShowCateg
         else{
             showCategoryAdapter.itemSelected = null;
             showCategoryAdapter.isLongPressed = false;
-            actionBar.setTitle(R.string.title_activity_main);
+            actionBar.setTitle(R.string.show_cat_activity_title);
             fab.setVisibility(View.VISIBLE);
             deleteCategoryMenuItem.setVisible(false);
             editCategoryMenuItem.setVisible(false);

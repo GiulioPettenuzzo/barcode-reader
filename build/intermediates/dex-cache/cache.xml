@@ -196,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c9414aa6404a7b1e87e425a4562b5d3bdd3cce02">
+        sha1="0c7bcb4fb1c51f1d5bd5aa7fb7ebd7c888042fa6">
         <dex dex="/Users/giuliopettenuzzo/AndroidStudioProjects/barcode-reader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7712efecb1bfc02aadc897c7447e67b6c68fa8b2/classes.dex" />
     </item>
     <item
