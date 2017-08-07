@@ -1,0 +1,6 @@
+<application>
+  <component name="GithubSettings">
+    <option name="LOGIN" value="giulio.pettenuzzo@studenti.unipd.it" />
+    <option name="AUTH_TYPE" value="BASIC" />
+  </component>
+</application>
