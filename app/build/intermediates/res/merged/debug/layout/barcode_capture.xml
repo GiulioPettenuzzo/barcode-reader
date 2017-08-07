@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/topLayout"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -10,8 +11,10 @@
 
   <com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview
       android:id="@+id/preview"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent">
+      android:layout_width="368dp"
+      android:layout_height="495dp"
+      tools:layout_editor_absoluteY="8dp"
+      tools:layout_editor_absoluteX="8dp">
 
     <com.google.android.gms.samples.vision.barcodereader.ui.camera.GraphicOverlay
         android:id="@+id/graphicOverlay"
@@ -20,4 +23,4 @@
 
   </com.google.android.gms.samples.vision.barcodereader.ui.camera.CameraSourcePreview>
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

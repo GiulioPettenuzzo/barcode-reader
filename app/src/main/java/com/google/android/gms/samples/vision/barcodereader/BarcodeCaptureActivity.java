@@ -104,6 +104,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         }
 
         gestureDetector = new GestureDetector(this, new CaptureGestureListener());
+
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
         Snackbar.make(mGraphicOverlay, "Tap to capture. Pinch/Stretch to zoom",
@@ -359,10 +360,12 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
         }
 
         if (best != null) {
-            Intent data = new Intent();
+            Intent data = new Intent(getApplicationContext(),VolleyActivity.class);
+
             data.putExtra(BarcodeObject, best);
-            setResult(CommonStatusCodes.SUCCESS, data);
-            finish();
+           // setResult(CommonStatusCodes.SUCCESS, data);
+            //finish();
+            startActivity(data);
             return true;
         }
         return false;
