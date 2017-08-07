@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="PircingDetails" type="PLAIN_TEXT" />
+      <mapping pattern="ld" type="PLAIN_TEXT" />
       <mapping pattern="clickListenerInTheAdapter" type="PLAIN_TEXT" />
       <mapping ext="so" type="PLAIN_TEXT" />
       <removed_mapping ext="so" type="UNKNOWN" />
